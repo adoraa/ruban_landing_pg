@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*about*/
+.about-list{
+    @apply bg-red-800 rounded-full text-white text-xs px-2
+}
+
+.about-num-list{
+    @apply text-2xl
+}
+
+.about-num-list-l{
+    @apply absolute flex flex-row items-center left-[-380px] md:left-[-350px] lg:left-[-340px]
+}
+
+.about-num-list-l-item{
+    @apply max-w-96 md:max-w-96 text-right pr-4
+}
+
+.about-num-list-m{
+    @apply absolute flex flex-col items-center
+}
+
+.about-num-list-r{
+    @apply absolute flex flex-row items-center space-x-2
+}
+
+.about-p{
+    @apply mx-32 md:mx-28 pt-4 tracking-wide text-2xl
+}
+
+/*benefits*/
+.benefit-list{
+    @apply flex flex-col items-center text-center mx-12 pb-6 md:mx-10 md:max-w-xs
+}
+
+.b-h1{
+    @apply font-semibold text-4xl pt-3
+}
+
+.b-h3{
+    @apply mx-28 pt-3 text-2xl tracking-wide
+}
+
+/*bubtton*/
+.btn{
+    @apply rounded-full py-2 px-3 text-xs font-semibold cursor-pointer tracking-wider
+}
+
+.btn-hover{
+    @apply transition-all duration-700 hover:scale-110
+}
+
+.subscribe{
+    @apply  mt-16 mb-36 px-5 py-5 text-2xl bg-primary-300 text-center hover:shadow-primary-200 hover:shadow-lg
+}
+
+/*card*/
+.card{
+    @apply min-w-[80px] max-w-[180px] md:min-w-[200px] bg-white rounded-2xl overflow-hidden border-2 border-white
+}
+
+.card-text{
+    @apply text-[8.6px] md:text-xs font-semibold w-full block
+}
+
+/*footer*/
+.footer-heading{
+    @apply pt-2 pb-2 font-semibold
+}
+
+.footer-text{
+    @apply text-xs max-w-32 md:max-w-56 lg:max-w-72 md:text-sm lg:text-base
+}
+
+/*hero items*/
+.hero-h1{
+    @apply text-5xl font-semibold md:text-5xl
+}
+
+.hero-h3{
+    @apply pt-8 text-2xl tracking-wide md:text-base md:pt-6
+}
+
+/*logo*/
+.logo{
+    @apply w-32 md:w-24 lg:w-20
+}
+
+.logo-text{
+    @apply pt-9 font-bold text-5xl lg:pt-5 lg:text-3xl
+}
+
+.logo-btn{
+    @apply text-green-700 flex pt-14 mx-14 lg:pt-20 lg:mx-20
+}
+
+/*mission and vision header text*/
+.mv-ht{
+   @apply text-green-950 text-lg font-bold
+}
+
+/*navigation bar*/
+.nav{
+    @apply mr-[60px] font-semibold text-3xl pt-1 lg:text-xl lg:mr-[90px] lg:pt-1
+}
+
+.nav-item{
+    @apply float-left
+}
+
+.nav-hover{
+    @apply hover:text-primary-200 hover:underline hover:underline-offset-8
+}
+
+/*products*/
+.product-img{
+    @apply w-full object-cover
+}
+
+/*Section headers*/
+.section-header{
+    @apply text-primary-200 font-semibold text-6xl md:text-5xl
+}
