@@ -24,7 +24,7 @@
                 <!--RuBan logo and text-->
                 <div>
                     <!--Logo-->
-                    <a href="/" class="logo-btn">
+                    <a href="/" class="logo-btn btn-hover">
                         <img class="logo" src="images/svg/logo.svg" alt="logo"/>
                         <!--Text-->
                         <span class="logo-text">Ru<span class="text-red-700">Ban</span></span>
@@ -70,30 +70,30 @@
             <!--Main content-->
             <div class="bg-primary-100 pt-14">
                 <!--Benefits?-->
-                <section id="benefits" class="flex flex-col pb-10 md:flex-row md:justify-around">
+                <section id="benefits" class="benefit-h">
                     <!--1st benefit-->
-                    <div class="benefit-list">
-                        <img class="w-20" src="images/svg/fresh_food.svg" alt="fresh leaves"/>
-                        <p class="b-h1">Fresh and Healthy Food</p>
+                    <div class="benefit-list md:pl-9">
+                        <img class="benefits-icon" src="images/svg/fresh_food.svg" alt="fresh leaves"/>
+                        <p class="b-h1 md:text-nowrap">Fresh and Healthy Food</p>
                         <p class="b-h3">Have access to a wide range of fresh food 
                             products ranging from cereals to 
                             vegetables, fruits and even livestock.
                         </p>
                     </div> <!--End of 1st benefit-->
                     <!--2nd benefit-->
-                    <div class="benefit-list">
-                        <img class="w-20" src="images/svg/truck.svg" alt="delivery truck"/>
-                        <p class="b-h1">Quick Delivery</p>
-                        <p class="b-h3">We have your products 
+                    <div class="benefit-list md:pl-10">
+                        <img class="benefits-icon" src="images/svg/truck.svg" alt="delivery truck"/>
+                        <p class="b-h1 md:text-nowrap">Quick Delivery</p>
+                        <p class="b-h3 md:mx-[-50px]">We have your products 
                             delivered to you right at 
                             your doorstep.
                         </p>
                     </div> <!--End of 2nd benefit-->
                     <!--3rd benefit-->
-                    <div class="benefit-list">
-                        <img class="w-20" src="images/svg/people.svg" alt="community"/>                            
+                    <div class="benefit-list md:px-6">
+                        <img class="benefits-icon" src="images/svg/people.svg" alt="community"/>                            
                         <p class="b-h1">Opportunities for all</p>
-                        <p class="b-h3">Ruban works to create and make valid 
+                        <p class="b-h3 md:px-4">Ruban works to create and make valid 
                             opportunities for youths in vast fields due 
                             to its diverse expansion in service to the 
                             community and world at large.
@@ -104,7 +104,7 @@
 
             <div class="mt-12">
                 <!--About section-->
-                <section class="flex flex-col items-center text-center">
+                <section class="about-h">
                     <h2 class="section-header">About RuBan</h2>
                     <p class="about-p">The RuBan trans tech is a business setup to commercially invade into the agricultural and logistics sector 
                         of the Nigerians economy with technology as its driving force. It is an online application that  provides a 
@@ -126,7 +126,7 @@
                                 <span class="about-list py-0.5">1</span>
                             </div>
                             <!--2-->
-                            <div class="about-num-list-r top-[120px] md:top-[120px] right-[-250px] md:right-[-300px]">
+                            <div class="about-num-list-r top-[120px] md:top-[102px] right-[-250px] md:right-[-195px]">
                                 <span class="about-list py-1">2</span>
                                 <span class="about-num-list text-left pl-2 max-w-60 md:max-w-none">
                                     Quick access to fresh foods
@@ -172,18 +172,18 @@
                 </section>
             </div>
 
-            <div class="pt-24 md:pt-16">
+            <div class="pt-52">
                 <!--Mission & values-->
-                <section class="bg-primary-100 pt-20 pl-16 md:pl-40 pb-12">
+                <section class="bg-primary-100 pt-20 pl-36 pb-12">
                     <div class="flex flex-row justify-evenly">
                         <div>
                             <h2 class="mv-ht">Our Mission</h2>
-                            <p class="text-green-950">To encourage every man in his 
+                            <p class="mv-p">To encourage every man in his 
                                 respective field of trade and reinstate unity
                                 and a sense of excellence through teamwork.
                             </p>
                             <h2 class="mv-ht mt-4">Our Values</h2>
-                            <ul class="list-disc pl-5"> <!--List of values-->
+                            <ul class="list-disc pl-5 mv-p"> <!--List of values-->
                                 <li>Living, working and serving with indepth 
                                     perfection of every segment
                                 </li>
@@ -202,14 +202,24 @@
                         </div>
                         <!--Floating images to-right-->
                         <div class="relative w-[950px] md:w-[700px] md:h-[300px] flex">
-                            <div class="absolute pl-2 pr-16 md:pr-40">
+                            <div class="absolute pl-2 pr-32 md:pr-40 z-10">
                                 <img src="images/floating_images/tomato.png" alt="hands holding tomatoes in a bowl"/>
                             </div>
-                            <div class="absolute top-[-20px] md:top-[-50px] right-[40px] md:right-[120px] w-16 md:w-28">
+                            <div class="absolute w-38 md:w-28 top-[-80px] md:top-[-60px] lg:top-[-40px] right-[40px] md:right-[120px] z-20">
                                 <img src="images/floating_images/grass.png" alt="vegetable farm"/>
                             </div>
-                            <div class="absolute right-[40px] md:right-[120px] bottom-[380px] md:bottom-[-10px] w-24 md:w-32">
+                            <div class="absolute w-48 md:w-32 right-[90px] md:right-[120px] bottom-[80px] lg:bottom-[70px] xl:bottom-[-50px] z-30">
                                 <img src="images/floating_images/shop.png" alt="fresh vegetable isle"/>
+                            </div>
+                            <!--Image shadows-->
+                            <div class="w-full h-full absolute pl-2 pr-32 md:pr-40 right-[70px] md:right-[50px]">
+                                <img src="images/floating_images/tomato_shadow.png" alt="tomato image shadow"/>
+                            </div>
+                            <div class="w-full md:w-40 h-full md:h-40 absolute top-[-150px] md:top-[-90px] right-[-180px] md:right-[80px]">
+                                <img src="images/floating_images/grass_shadow.png" alt="grass image shadow"/>
+                            </div>
+                            <div class="w-full h-full md:w-64 md:h-32 xl:w-60 xl:h-28 absolute right-[-50px] md:right-[50px] bottom-[-100px] md:bottom-[120px] lg:bottom-[-50px] xl:bottom-[-10px]">
+                                <img src="images/floating_images/shop_shadow.png" alt="tomato image shadow"/>
                             </div>
                         </div> <!--End of floating images to-right-->
                     </div>
@@ -219,19 +229,19 @@
             <div class="mt-10">
                 <!--Partners section-->
                 <section class="flex flex-col items-center">
-                    <h2 class="text-2xl text-primary-300 font-semibold">Our Partners & Stakeholders</h2>
-                    <h3 class="text-center px-3">The power of our network means
+                    <h2 class="section-header">Our Partners & Stakeholders</h2>
+                    <h3 class="text-center px-3 about-p">The power of our network means
                         gaining value from all members of the ecosystem
                     </h3>
                     <!--Brand logos of partners-->
-                    <div class="flex flex-col md:items-center">
-                        <div class="flex w-[150px] md:w-[200px]">
-                            <img class="ml-[-140px] md:ml-[-250px] mt-4" src="images/radisson_logo.png" alt="Radisson Blu logo"/>
-                            <img class="ml-[140px] md:ml-[280px] mt-4" src="images/ecm_terminals.png" alt="ECM Terminals Limited logo"/>
+                    <div class="flex flex-col md:items-center mt-4">
+                        <div class="partner-logo">
+                            <img class="ml-[-190px] p-mini:ml-[-140px] md:ml-[-250px] mt-4" src="images/partners/radisson_logo.png" alt="Radisson Blu logo"/>
+                            <img class="ml-[140px] md:ml-[280px] mt-4" src="images/partners/ecm_terminals.png" alt="ECM Terminals Limited logo"/>
                         </div>
-                        <div class="flex w-[150px] md:w-[200px]">
-                            <img class="h-12 md:h-16 ml-[-80px] md:ml-[-160px] mt-10" src="images/food_angels.png" alt="My Food Angels logo"/>
-                            <img class="h-20 md:h-24 ml-[60px] md:ml-[150px] mt-5" src="images/maersk.png" alt="Maersk logo"/>
+                        <div class="partner-logo">
+                            <img class="h-20 p-mini:h-12 md:h-16 ml-[-100px] p-mini:ml-[-80px] md:ml-[-160px] mt-10" src="images/partners/food_angels.png" alt="My Food Angels logo"/>
+                            <img class="h-28 p-mini:h-20 md:h-24 p-mini:ml-[60px] md:ml-[150px] mt-5" src="images/partners/maersk.png" alt="Maersk logo"/>
                         </div>
                     </div><!--End of brand logos of partners-->
                 </section>
@@ -241,72 +251,48 @@
                 <!--Product categories-->
                 <section id="products" class="pt-10">
                     <div class="text-white text-center">
-                        <h2 class="font-semibold">Categories of Products</h2>
-                        <h3 class="text-xs"> We have a wide range of fresh products
+                        <h2 class="font-semibold text-3xl">Categories of Products</h2>
+                        <h3 class="pt-2 text-lg md:text-xs"> We have a wide range of fresh products
                             covering different agricultural sectors
                         </h3>
                     </div>
                     <!--Product carousel-->
-                    <div class="mt-7 overflow-x-auto pb-12 mx-4">
+                    <div class="mt-7 overflow-x-auto pb-12 mx-20">
                         <!--Cards-->
-                        <div class="flex gap-6">
-                        <!--fish-->
+                        <div class="flex gap-10">
+                            <!--fish-->
                             <div class="card">
-                                <img class="product-img" src="images/fish.png" alt="frozen fish"/>
+                                <img class="product-img" src="images/products/fish.png" alt="frozen fish"/>
                                 <div class="m-2">
                                     <!--insert rating-->
-                                    <svg class="w-16" width="103" height="15" viewBox="0 0 103 15" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M3.53409 14.1304C3.1824 14.3104 2.78334 13.995 2.8544 13.5922L3.61062 9.29223L0.40078 6.24132C0.101025 5.95586 0.256825 5.43405 0.658625 5.37768L5.12125 4.74496L7.11111 0.811319C7.2906 0.456774 7.77622 0.456774 7.95571 0.811319L9.94558 4.74496L14.4082 5.37768C14.81 5.43405 14.9658 5.95586 14.6651 6.24132L11.4562 9.29223L12.2124 13.5922C12.2835 13.995 11.8844 14.3104 11.5327 14.1304L7.53205 12.0795L3.53318 14.1304H3.53409Z" fill="#006633"/>
-                                        <path d="M25.4008 14.1304C25.0491 14.3104 24.65 13.995 24.7211 13.5922L25.4773 9.29223L22.2675 6.24132C21.9677 5.95586 22.1235 5.43405 22.5253 5.37768L26.9879 4.74496L28.9778 0.811319C29.1573 0.456774 29.6429 0.456774 29.8224 0.811319L31.8123 4.74496L36.2749 5.37768C36.6767 5.43405 36.8325 5.95586 36.5318 6.24132L33.3229 9.29223L34.0791 13.5922C34.1502 13.995 33.7511 14.3104 33.3994 14.1304L29.3987 12.0795L25.3999 14.1304H25.4008Z" fill="#006633"/>
-                                        <path d="M47.2675 14.1304C46.9158 14.3104 46.5167 13.995 46.5878 13.5922L47.344 9.29223L44.1342 6.24132C43.8344 5.95586 43.9902 5.43405 44.392 5.37768L48.8546 4.74496L50.8445 0.811319C51.024 0.456774 51.5096 0.456774 51.6891 0.811319L53.679 4.74496L58.1416 5.37768C58.5434 5.43405 58.6992 5.95586 58.3985 6.24132L55.1896 9.29223L55.9458 13.5922C56.0169 13.995 55.6178 14.3104 55.2661 14.1304L51.2654 12.0795L47.2666 14.1304H47.2675Z" fill="#006633"/>
-                                        <path d="M69.1339 14.1304C68.7823 14.3104 68.3832 13.995 68.4543 13.5922L69.2105 9.29223L66.0006 6.24132C65.7009 5.95586 65.8567 5.43405 66.2585 5.37768L70.7211 4.74496L72.711 0.811319C72.8905 0.456774 73.3761 0.456774 73.5556 0.811319L75.5454 4.74496L80.0081 5.37768C80.4099 5.43405 80.5657 5.95586 80.265 6.24132L77.0561 9.29223L77.8123 13.5922C77.8833 13.995 77.4843 14.3104 77.1326 14.1304L73.1319 12.0795L69.133 14.1304H69.1339Z" fill="#006633"/>
-                                        <path d="M91.0006 14.1304C90.649 14.3104 90.2499 13.995 90.321 13.5922L91.0772 9.29223L87.8673 6.24132C87.5676 5.95586 87.7234 5.43405 88.1252 5.37768L92.5878 4.74496L94.5777 0.811319C94.7572 0.456774 95.2428 0.456774 95.4223 0.811319L97.4121 4.74496L101.875 5.37768C102.277 5.43405 102.432 5.95586 102.132 6.24132L98.9228 9.29223L99.679 13.5922C99.75 13.995 99.351 14.3104 98.9993 14.1304L94.9986 12.0795L91.0006 14.1304Z" fill="#006633"/>
-                                    </svg>
+                                    <img class="w-16" src="images/svg/rating.svg" alt="star ratings"/>
                                     <span class="card-text">Fish & Fish Products</span>
                                 </div>
                             </div>
                             <!--vegetables-->
                             <div class="card">
-                                <img class="product-img" src="images/vegetables.png" alt="vegetables"/>
+                                <img class="product-img" src="images/products/vegetables.png" alt="vegetables"/>
                                 <div class="m-2">
                                     <!--insert rating-->
-                                    <svg class="w-16" width="103" height="15" viewBox="0 0 103 15" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M3.53409 14.1304C3.1824 14.3104 2.78334 13.995 2.8544 13.5922L3.61062 9.29223L0.40078 6.24132C0.101025 5.95586 0.256825 5.43405 0.658625 5.37768L5.12125 4.74496L7.11111 0.811319C7.2906 0.456774 7.77622 0.456774 7.95571 0.811319L9.94558 4.74496L14.4082 5.37768C14.81 5.43405 14.9658 5.95586 14.6651 6.24132L11.4562 9.29223L12.2124 13.5922C12.2835 13.995 11.8844 14.3104 11.5327 14.1304L7.53205 12.0795L3.53318 14.1304H3.53409Z" fill="#006633"/>
-                                        <path d="M25.4008 14.1304C25.0491 14.3104 24.65 13.995 24.7211 13.5922L25.4773 9.29223L22.2675 6.24132C21.9677 5.95586 22.1235 5.43405 22.5253 5.37768L26.9879 4.74496L28.9778 0.811319C29.1573 0.456774 29.6429 0.456774 29.8224 0.811319L31.8123 4.74496L36.2749 5.37768C36.6767 5.43405 36.8325 5.95586 36.5318 6.24132L33.3229 9.29223L34.0791 13.5922C34.1502 13.995 33.7511 14.3104 33.3994 14.1304L29.3987 12.0795L25.3999 14.1304H25.4008Z" fill="#006633"/>
-                                        <path d="M47.2675 14.1304C46.9158 14.3104 46.5167 13.995 46.5878 13.5922L47.344 9.29223L44.1342 6.24132C43.8344 5.95586 43.9902 5.43405 44.392 5.37768L48.8546 4.74496L50.8445 0.811319C51.024 0.456774 51.5096 0.456774 51.6891 0.811319L53.679 4.74496L58.1416 5.37768C58.5434 5.43405 58.6992 5.95586 58.3985 6.24132L55.1896 9.29223L55.9458 13.5922C56.0169 13.995 55.6178 14.3104 55.2661 14.1304L51.2654 12.0795L47.2666 14.1304H47.2675Z" fill="#006633"/>
-                                        <path d="M69.1339 14.1304C68.7823 14.3104 68.3832 13.995 68.4543 13.5922L69.2105 9.29223L66.0006 6.24132C65.7009 5.95586 65.8567 5.43405 66.2585 5.37768L70.7211 4.74496L72.711 0.811319C72.8905 0.456774 73.3761 0.456774 73.5556 0.811319L75.5454 4.74496L80.0081 5.37768C80.4099 5.43405 80.5657 5.95586 80.265 6.24132L77.0561 9.29223L77.8123 13.5922C77.8833 13.995 77.4843 14.3104 77.1326 14.1304L73.1319 12.0795L69.133 14.1304H69.1339Z" fill="#006633"/>
-                                        <path d="M91.0006 14.1304C90.649 14.3104 90.2499 13.995 90.321 13.5922L91.0772 9.29223L87.8673 6.24132C87.5676 5.95586 87.7234 5.43405 88.1252 5.37768L92.5878 4.74496L94.5777 0.811319C94.7572 0.456774 95.2428 0.456774 95.4223 0.811319L97.4121 4.74496L101.875 5.37768C102.277 5.43405 102.432 5.95586 102.132 6.24132L98.9228 9.29223L99.679 13.5922C99.75 13.995 99.351 14.3104 98.9993 14.1304L94.9986 12.0795L91.0006 14.1304Z" fill="#006633"/>
-                                    </svg>
+                                    <img class="w-16" src="images/svg/rating.svg" alt="star ratings"/>
                                     <span class="card-text">Vegetables</span>
                                 </div>
                             </div>
                             <!--nuts and oil-->
                             <div class="card">
-                                <img class="product-img" src="images/nuts.png" alt="nuts and oils"/>
+                                <img class="product-img" src="images/products/nuts.png" alt="nuts and oils"/>
                                 <div class="m-2">
                                     <!--insert rating-->
-                                    <svg class="w-16" width="103" height="15" viewBox="0 0 103 15" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M3.53409 14.1304C3.1824 14.3104 2.78334 13.995 2.8544 13.5922L3.61062 9.29223L0.40078 6.24132C0.101025 5.95586 0.256825 5.43405 0.658625 5.37768L5.12125 4.74496L7.11111 0.811319C7.2906 0.456774 7.77622 0.456774 7.95571 0.811319L9.94558 4.74496L14.4082 5.37768C14.81 5.43405 14.9658 5.95586 14.6651 6.24132L11.4562 9.29223L12.2124 13.5922C12.2835 13.995 11.8844 14.3104 11.5327 14.1304L7.53205 12.0795L3.53318 14.1304H3.53409Z" fill="#006633"/>
-                                        <path d="M25.4008 14.1304C25.0491 14.3104 24.65 13.995 24.7211 13.5922L25.4773 9.29223L22.2675 6.24132C21.9677 5.95586 22.1235 5.43405 22.5253 5.37768L26.9879 4.74496L28.9778 0.811319C29.1573 0.456774 29.6429 0.456774 29.8224 0.811319L31.8123 4.74496L36.2749 5.37768C36.6767 5.43405 36.8325 5.95586 36.5318 6.24132L33.3229 9.29223L34.0791 13.5922C34.1502 13.995 33.7511 14.3104 33.3994 14.1304L29.3987 12.0795L25.3999 14.1304H25.4008Z" fill="#006633"/>
-                                        <path d="M47.2675 14.1304C46.9158 14.3104 46.5167 13.995 46.5878 13.5922L47.344 9.29223L44.1342 6.24132C43.8344 5.95586 43.9902 5.43405 44.392 5.37768L48.8546 4.74496L50.8445 0.811319C51.024 0.456774 51.5096 0.456774 51.6891 0.811319L53.679 4.74496L58.1416 5.37768C58.5434 5.43405 58.6992 5.95586 58.3985 6.24132L55.1896 9.29223L55.9458 13.5922C56.0169 13.995 55.6178 14.3104 55.2661 14.1304L51.2654 12.0795L47.2666 14.1304H47.2675Z" fill="#006633"/>
-                                        <path d="M69.1339 14.1304C68.7823 14.3104 68.3832 13.995 68.4543 13.5922L69.2105 9.29223L66.0006 6.24132C65.7009 5.95586 65.8567 5.43405 66.2585 5.37768L70.7211 4.74496L72.711 0.811319C72.8905 0.456774 73.3761 0.456774 73.5556 0.811319L75.5454 4.74496L80.0081 5.37768C80.4099 5.43405 80.5657 5.95586 80.265 6.24132L77.0561 9.29223L77.8123 13.5922C77.8833 13.995 77.4843 14.3104 77.1326 14.1304L73.1319 12.0795L69.133 14.1304H69.1339Z" fill="#006633"/>
-                                        <path d="M91.0006 14.1304C90.649 14.3104 90.2499 13.995 90.321 13.5922L91.0772 9.29223L87.8673 6.24132C87.5676 5.95586 87.7234 5.43405 88.1252 5.37768L92.5878 4.74496L94.5777 0.811319C94.7572 0.456774 95.2428 0.456774 95.4223 0.811319L97.4121 4.74496L101.875 5.37768C102.277 5.43405 102.432 5.95586 102.132 6.24132L98.9228 9.29223L99.679 13.5922C99.75 13.995 99.351 14.3104 98.9993 14.1304L94.9986 12.0795L91.0006 14.1304Z" fill="#006633"/>
-                                    </svg>
+                                    <img class="w-16" src="images/svg/rating.svg" alt="star ratings"/>
                                     <span class="card-text">Nuts and oil</span>
                                 </div>
                             </div>
                             <!--livestock-->
                             <div class="card">
-                                <img class="product-img" src="images/livestock.png" alt="livestock"/>
+                                <img class="product-img" src="images/products/livestock.png" alt="livestock"/>
                                 <div class="m-2">
                                     <!--insert rating-->
-                                    <svg class="w-16" width="103" height="15" viewBox="0 0 103 15" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M3.53409 14.1304C3.1824 14.3104 2.78334 13.995 2.8544 13.5922L3.61062 9.29223L0.40078 6.24132C0.101025 5.95586 0.256825 5.43405 0.658625 5.37768L5.12125 4.74496L7.11111 0.811319C7.2906 0.456774 7.77622 0.456774 7.95571 0.811319L9.94558 4.74496L14.4082 5.37768C14.81 5.43405 14.9658 5.95586 14.6651 6.24132L11.4562 9.29223L12.2124 13.5922C12.2835 13.995 11.8844 14.3104 11.5327 14.1304L7.53205 12.0795L3.53318 14.1304H3.53409Z" fill="#006633"/>
-                                        <path d="M25.4008 14.1304C25.0491 14.3104 24.65 13.995 24.7211 13.5922L25.4773 9.29223L22.2675 6.24132C21.9677 5.95586 22.1235 5.43405 22.5253 5.37768L26.9879 4.74496L28.9778 0.811319C29.1573 0.456774 29.6429 0.456774 29.8224 0.811319L31.8123 4.74496L36.2749 5.37768C36.6767 5.43405 36.8325 5.95586 36.5318 6.24132L33.3229 9.29223L34.0791 13.5922C34.1502 13.995 33.7511 14.3104 33.3994 14.1304L29.3987 12.0795L25.3999 14.1304H25.4008Z" fill="#006633"/>
-                                        <path d="M47.2675 14.1304C46.9158 14.3104 46.5167 13.995 46.5878 13.5922L47.344 9.29223L44.1342 6.24132C43.8344 5.95586 43.9902 5.43405 44.392 5.37768L48.8546 4.74496L50.8445 0.811319C51.024 0.456774 51.5096 0.456774 51.6891 0.811319L53.679 4.74496L58.1416 5.37768C58.5434 5.43405 58.6992 5.95586 58.3985 6.24132L55.1896 9.29223L55.9458 13.5922C56.0169 13.995 55.6178 14.3104 55.2661 14.1304L51.2654 12.0795L47.2666 14.1304H47.2675Z" fill="#006633"/>
-                                        <path d="M69.1339 14.1304C68.7823 14.3104 68.3832 13.995 68.4543 13.5922L69.2105 9.29223L66.0006 6.24132C65.7009 5.95586 65.8567 5.43405 66.2585 5.37768L70.7211 4.74496L72.711 0.811319C72.8905 0.456774 73.3761 0.456774 73.5556 0.811319L75.5454 4.74496L80.0081 5.37768C80.4099 5.43405 80.5657 5.95586 80.265 6.24132L77.0561 9.29223L77.8123 13.5922C77.8833 13.995 77.4843 14.3104 77.1326 14.1304L73.1319 12.0795L69.133 14.1304H69.1339Z" fill="#006633"/>
-                                        <path d="M91.0006 14.1304C90.649 14.3104 90.2499 13.995 90.321 13.5922L91.0772 9.29223L87.8673 6.24132C87.5676 5.95586 87.7234 5.43405 88.1252 5.37768L92.5878 4.74496L94.5777 0.811319C94.7572 0.456774 95.2428 0.456774 95.4223 0.811319L97.4121 4.74496L101.875 5.37768C102.277 5.43405 102.432 5.95586 102.132 6.24132L98.9228 9.29223L99.679 13.5922C99.75 13.995 99.351 14.3104 98.9993 14.1304L94.9986 12.0795L91.0006 14.1304Z" fill="#006633"/>
-                                    </svg>
+                                    <img class="w-16" src="images/svg/rating.svg" alt="star ratings"/>
                                     <span class="card-text">Livestock</span>
                                 </div>
                             </div> <!--End cards-->
@@ -325,9 +311,9 @@
                     <div class="mt-10 mx-16 flex justify-center">
                         <!--Cards-->
                         <div class="bg-white rounded-2xl overflow-hidden border-2 border-primary-200">
-                            <img class="w-40" src="images/man.jpg" alt="an image of a man"/>
+                            <img class="w-40" src="images/reviews/man.jpg" alt="an image of a man"/>
                         </div>
-                        <div class="pl-8">
+                        <div class="pl-8 text-2xl">
                             <p>RuBan is a lasting solution to
                                 agri-produce distribution in Nigeria
                                 <br/>
@@ -342,20 +328,20 @@
 
             <!--App promotion-->
             <div class="mt-16">
-                <section class="flex justify-between md:justify-center">
+                <section class="flex justify-center">
                     <div class="pl-16">
-                        <img class="w-56" src="images/phone_screen.png" alt="phone screen"/>
+                        <img class="w-56" src="images/app_screen/phone_screen.png" alt="phone screen"/>
                     </div>
                     <div class="mr-16 mt-16">
                         <h2 class="font-semibold text-2xl">App Coming<br/>Soon</h2>
                         <a href="#">
                             <div>
-                                <img class="w-32 mt-2" src="images/play_store.png" alt="Google play store"/>
+                                <img class="w-32 mt-2 btn-hover" src="images/app_screen/play_store.png" alt="Google play store"/>
                             </div>
                         </a>
                         <a href="#">
                             <div>
-                                <img class="w-32 mt-2" src="images/app_store.png" alt="App store"/>
+                                <img class="w-32 mt-2 btn-hover" src="images/app_screen/app_store.png" alt="App store"/>
                             </div>
                         </a>
                     </div>
@@ -375,7 +361,7 @@
                             placeholder="johndoe@email.com"
                             pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" 
                             maxlength="55" autocomplete="on" required/>
-                            <input class="bg-primary-200 rounded-r-lg h-10 px-2 mt-1 text-white" type="button" value="Subscribe"/>
+                            <input class="bg-primary-200 rounded-r-lg h-10 px-2 mt-1 text-white hover:cursor-pointer hover:bg-primary-300" type="button" value="Subscribe"/>
                         </form>
                     </div> <!--End subscription form-->
                 </div>
@@ -392,7 +378,7 @@
                         <!--Logo-->
                         <div>
                             <!--Logo-->
-                            <a href="/" class="text-green-700 flex">
+                            <a href="/" class="text-green-700 flex btn-hover">
                                 <svg class="w-10 h-auto" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                                     width="100%" viewBox="0 0 128 120" enable-background="new 0 0 128 120" xml">
                                     <path fill="none" opacity="1.000000" stroke="none" 
@@ -644,7 +630,7 @@
                     <!--Row 2-->
                     <div>
                         <h3 class="footer-heading mt-4" id="contact">Contact</h3>
-                        <a class="footer-text" href="mailto: rubantrans.tech@gmail.com?subject=Services Enquiry&body= ">
+                        <a class="footer-text hover:text-red-700" href="mailto: rubantrans.tech@gmail.com?subject=Services Enquiry&body= ">
                             rubantrans.tech@gmail.com
                         </a>
                     </div><!--End column 1-->
@@ -654,16 +640,16 @@
                     <h3 class="footer-heading">Categories</h3>
                     <ul class="footer-text">
                         <li>
-                            <a href="#">Fish & Fish Products</a>
+                            <a href="#" class="footer-link">Fish & Fish Products</a>
                         </li>
                         <li>
-                            <a href="#">Fruits</a>
+                            <a href="#" class="footer-link">Fruits</a>
                         </li>
                         <li>
-                            <a href="#">Cereals</a>
+                            <a href="#" class="footer-link">Cereals</a>
                         </li>
                         <li>
-                            <a href="#">Vegetables</a>
+                            <a href="#" class="footer-link">Vegetables</a>
                         </li>
                     </ul>
                 </div><!--End column 2-->

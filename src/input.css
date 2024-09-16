@@ -5,12 +5,16 @@
 @tailwind utilities;
 
 /*about*/
+.about-h{
+    @apply flex flex-col items-center text-center
+}
+
 .about-list{
     @apply bg-red-800 rounded-full text-white text-xs px-2
 }
 
 .about-num-list{
-    @apply text-2xl
+    @apply text-2xl md:text-base
 }
 
 .about-num-list-l{
@@ -18,7 +22,7 @@
 }
 
 .about-num-list-l-item{
-    @apply max-w-96 md:max-w-96 text-right pr-4
+    @apply max-w-96 md:max-w-96 text-right pr-4 md:pl-8
 }
 
 .about-num-list-m{
@@ -30,20 +34,28 @@
 }
 
 .about-p{
-    @apply mx-32 md:mx-28 pt-4 tracking-wide text-2xl
+    @apply mx-32 md:mx-28 pt-4 tracking-wide text-2xl md:text-base
 }
 
 /*benefits*/
+.benefit-h{
+    @apply flex flex-col pb-10 md:pb-7 lg:pb-10 md:flex-row md:justify-around
+}
+
 .benefit-list{
-    @apply flex flex-col items-center text-center mx-12 pb-6 md:mx-10 md:max-w-xs
+    @apply flex flex-col items-center text-center mx-12 pb-6 md:mx-10
 }
 
 .b-h1{
-    @apply font-semibold text-4xl pt-3
+    @apply font-semibold text-4xl md:text-xl pt-3
 }
 
 .b-h3{
-    @apply mx-28 pt-3 text-2xl tracking-wide
+    @apply mx-28 md:mx-0 pt-3 text-2xl md:text-base tracking-wide
+}
+
+.benefits-icon{
+    @apply w-20 md:w-16
 }
 
 /*bubtton*/
@@ -77,6 +89,10 @@
     @apply text-xs max-w-32 md:max-w-56 lg:max-w-72 md:text-sm lg:text-base
 }
 
+.footer-link{
+    @apply hover:text-primary-100 hover:underline
+}
+
 /*hero items*/
 .hero-h1{
     @apply text-5xl font-semibold md:text-5xl
@@ -92,21 +108,25 @@
 }
 
 .logo-text{
-    @apply pt-9 font-bold text-5xl lg:pt-5 lg:text-3xl
+    @apply pt-9 font-bold text-5xl md:pt-6 md:text-4xl lg:pt-5 lg:text-3xl
 }
 
 .logo-btn{
-    @apply text-green-700 flex pt-14 mx-14 lg:pt-20 lg:mx-20
+    @apply text-green-700 flex pt-14 mx-14 md:pt-20 md:mx-20
 }
 
 /*mission and vision header text*/
 .mv-ht{
-   @apply text-green-950 text-lg font-bold
+   @apply text-green-950 text-4xl md:text-lg font-bold pb-1 md:pb-0
+}
+
+.mv-p{
+    @apply text-green-950 text-2xl md:text-base space-y-1 md:space-y-0
 }
 
 /*navigation bar*/
 .nav{
-    @apply mr-[60px] font-semibold text-3xl pt-1 lg:text-xl lg:mr-[90px] lg:pt-1
+    @apply mr-[60px] font-semibold text-3xl pt-1 md:pt-2 lg:text-xl lg:mr-[90px] lg:pt-1
 }
 
 .nav-item{
@@ -115,6 +135,11 @@
 
 .nav-hover{
     @apply hover:text-primary-200 hover:underline hover:underline-offset-8
+}
+
+/*partners*/
+.partner-logo{
+    @apply flex w-[240px] p-mini:w-[150px] md:w-[200px]
 }
 
 /*products*/
