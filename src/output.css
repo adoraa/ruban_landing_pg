@@ -902,8 +902,16 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
+.bg-\[hero-img\]{
+  background-color: hero-img;
+}
+
 .bg-hero-img{
-  background-image: url('/images/bg-image.png');
+  background-image: url('/images/bg-image01.png');
+}
+
+.bg-\[url\(\'\/images\/bg-image01\.png\'\)\]{
+  background-image: url('/images/bg-image01.png');
 }
 
 .bg-cover{
@@ -1596,10 +1604,6 @@ video {
 .hover\:text-red-700:hover{
   --tw-text-opacity: 1;
   color: rgb(185 28 28 / var(--tw-text-opacity));
-}
-
-.hover\:underline:hover{
-  text-decoration-line: underline;
 }
 
 @media (min-width: 540px){
