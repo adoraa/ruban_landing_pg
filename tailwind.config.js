@@ -7,7 +7,7 @@ module.exports = {
         poppins: ['Poppins']
       },
       backgroundImage: {
-        'hero-img': "url('src/images/bg-image01.png')"
+        'hero-img': "url('/images/bg-image01.png')"
       },
       colors: {
         primary: {
