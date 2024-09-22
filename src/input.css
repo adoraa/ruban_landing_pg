@@ -18,11 +18,11 @@
 }
 
 .about-num-list-l{
-    @apply absolute flex flex-row items-center left-[-380px] md:left-[-350px] lg:left-[-340px]
+    @apply absolute flex flex-row items-center -left-96 md:-left-80 lg:-left-80
 }
 
 .about-num-list-l-item{
-    @apply max-w-96 md:max-w-96 text-right pr-4 md:pl-8
+    @apply max-w-80 md:max-w-96 text-right pr-4 ml-6 md:pl-8
 }
 
 .about-num-list-m{
@@ -73,20 +73,20 @@
 
 /*card*/
 .card{
-    @apply min-w-[80px] max-w-[180px] md:min-w-[200px] bg-white rounded-2xl overflow-hidden border-2 border-white
+    @apply min-w-20 max-w-56 md:min-w-48 bg-white rounded-2xl overflow-hidden border-2 border-white
 }
 
 .card-text{
-    @apply text-[8.6px] md:text-xs font-semibold w-full block
+    @apply text-2xl md:text-xs font-semibold
 }
 
 /*footer*/
 .footer-heading{
-    @apply pt-2 pb-2 font-semibold
+    @apply pt-2 pb-2 font-semibold text-2xl phone-l:text-base
 }
 
 .footer-text{
-    @apply text-xs max-w-32 md:max-w-56 lg:max-w-72 md:text-sm lg:text-base
+    @apply text-xl phone-l:text-xs phone-l:max-w-32 md:max-w-56 lg:max-w-72 md:text-sm lg:text-base
 }
 
 .footer-link{
@@ -104,7 +104,7 @@
 
 /*logo*/
 .logo{
-    @apply w-32 md:w-24 lg:w-20
+    @apply w-24 md:w-24 lg:w-20
 }
 
 .logo-btn{
@@ -112,7 +112,7 @@
 }
 
 .logo-text{
-    @apply pt-9 font-bold text-5xl md:pt-6 md:text-4xl lg:pt-5 lg:text-3xl
+    @apply pt-6 font-bold text-4xl md:pt-6 md:text-4xl lg:pt-5 lg:text-3xl
 }
 
 /*mission and vision header text*/
@@ -126,7 +126,7 @@
 
 /*navigation bar*/
 .nav{
-    @apply mr-[60px] font-semibold text-3xl pt-1 md:pt-2 lg:text-xl lg:mr-[90px] lg:pt-1
+    @apply font-semibold text-2xl pt-1 md:pt-2 lg:text-xl lg:mr-20 lg:pt-1
 }
 
 .nav-item{
@@ -139,7 +139,7 @@
 
 /*partners*/
 .partner-logo{
-    @apply flex w-[240px] p-mini:w-[150px] md:w-[200px]
+    @apply flex w-56 p-mini:w-36 md:w-48
 }
 
 /*products*/
@@ -149,5 +149,5 @@
 
 /*Section headers*/
 .section-header{
-    @apply text-primary-200 font-semibold text-6xl md:text-5xl
+    @apply text-primary-200 font-semibold text-4xl md:text-5xl
 }
