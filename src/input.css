@@ -4,6 +4,15 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+    * {
+        @apply box-border;
+    }
+    *::before, *::after {
+        @apply box-border;
+    }
+}
+
 /*about*/
 .about-h{
     @apply flex flex-col items-center text-center
@@ -34,7 +43,7 @@
 }
 
 .about-p{
-    @apply mx-32 md:mx-28 pt-4 tracking-wide text-2xl md:text-base
+    @apply px-32 md:mx-28 pt-4 tracking-wide text-2xl md:text-base
 }
 
 /*benefits*/
@@ -43,7 +52,7 @@
 }
 
 .benefit-list{
-    @apply flex flex-col items-center text-center mx-12 pb-6 md:mx-10
+    @apply flex flex-col items-center text-center px-12 pb-6 md:mx-10
 }
 
 .b-h1{
@@ -51,7 +60,7 @@
 }
 
 .b-h3{
-    @apply mx-28 md:mx-0 pt-3 text-2xl md:text-base tracking-wide
+    @apply px-28 md:mx-0 pt-3 text-2xl md:text-base tracking-wide
 }
 
 .benefits-icon{
@@ -104,15 +113,15 @@
 
 /*logo*/
 .logo{
-    @apply w-32 md:w-24 lg:w-20
-}
-
-.logo-text{
-    @apply pt-9 font-bold text-5xl md:pt-6 md:text-4xl lg:pt-5 lg:text-3xl
+    @apply w-16 md:w-24 lg:w-20
 }
 
 .logo-btn{
-    @apply text-green-700 flex pt-14 mx-14 md:pt-20 md:mx-20
+    @apply text-green-700 flex pt-14 px-14 sm:px-6 md:pt-20 md:mx-20
+}
+
+.logo-text{
+    @apply pt-3 font-bold text-3xl md:pt-6 md:text-4xl lg:pt-5 lg:text-3xl
 }
 
 /*mission and vision header text*/
@@ -126,7 +135,7 @@
 
 /*navigation bar*/
 .nav{
-    @apply mr-[60px] font-semibold text-3xl pt-1 md:pt-2 lg:text-xl lg:mr-[90px] lg:pt-1
+    @apply font-semibold text-3xl pt-1 md:pt-2 lg:text-xl lg:mr-[90px] lg:pt-1
 }
 
 .nav-item{
