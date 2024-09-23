@@ -1,10 +1,409 @@
-<html lang="en">
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="refresh" content="0; url=src/index.html">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>RuBan</title>
+    <link rel="icon" type="image/x-icon" href="favicon/favicon.ico"> 
+    <link rel="apple-touch-icon" sizes="120x120" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/site.webmanifest">
+    <link rel="mask-icon" href="favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <link href="./output.css" rel="stylesheet">
 </head>
-<body>
-    
+<body class="font-poppins">
+    <!--Content wrapper-->
+    <div>
+        <!--Nav and hero section-->
+        <div class="bg-hero-img bg-cover bg-center">
+            <!--Header-->
+            <div class="flex justify-between">
+                <!--RuBan logo and text-->
+                <div>
+                    <!--Logo-->
+                    <a href="/" class="logo-btn btn-hover">
+                        <img class="logo" src="images/svg/logo.svg" alt="logo"/>
+                        <!--Text-->
+                        <span class="logo-text">Ru<span class="text-red-700">Ban</span></span>
+                    </a>
+                </div>
+                <!--Navigation links-->
+                <div>
+                    <nav class="mt-14 md:pt-8">
+                        <ul class="nav">
+                            <li class="nav-item nav-hover">
+                                <a href="#benefits">Benefits</a>
+                            </li>
+                            <li class="nav-item nav-hover px-5">
+                                <a href="#products">Products</a>
+                            </li>
+                            <li class="nav-item nav-hover pr-2">
+                                <a href="#contact">Contact</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div> <!--End header-->
+        
+            <!--Hero section-->
+            <header class="mt-32 pl-8 md:pl-24">
+                <div> <!--Text content-->
+                    <h1 class="hero-h1">Enjoy stress free<br/>shopping experience</h1>
+                    <h3 class="hero-h3">Buy local vegetables, fruits, meat, fish
+                        and other agricultural produce delivered
+                        to you right in your city
+                    </h3>
+                </div>
+                <!--Subscribe button-->
+                <div class="flex justify-start">
+                    <div class="btn subscribe btn-hover"> <!--Subscribe button-->
+                        <a href="#subscribe" class="text-white">Subscribe</a>
+                    </div>
+                </div>
+            </header>  <!--End hero section-->
+        </div> <!--End bg img-->
+
+        <main>
+            <!--Main content-->
+            <div class="bg-primary-100 pt-14">
+                <!--Benefits?-->
+                <section id="benefits" class="benefit-h">
+                    <!--1st benefit-->
+                    <div class="benefit-list md:pl-9">
+                        <img class="benefits-icon" src="images/svg/fresh_food.svg" alt="fresh leaves"/>
+                        <p class="b-h1 md:text-nowrap">Fresh and Healthy Food</p>
+                        <p class="b-h3">Have access to a wide range of fresh food 
+                            products ranging from cereals to 
+                            vegetables, fruits and even livestock.
+                        </p>
+                    </div> <!--End of 1st benefit-->
+                    <!--2nd benefit-->
+                    <div class="benefit-list md:pl-10">
+                        <img class="benefits-icon" src="images/svg/truck.svg" alt="delivery truck"/>
+                        <p class="b-h1 md:text-nowrap">Quick Delivery</p>
+                        <p class="b-h3 md:-px-12">We have your products 
+                            delivered to you right at 
+                            your doorstep.
+                        </p>
+                    </div> <!--End of 2nd benefit-->
+                    <!--3rd benefit-->
+                    <div class="benefit-list md:px-6">
+                        <img class="benefits-icon" src="images/svg/people.svg" alt="community"/>                            
+                        <p class="b-h1">Opportunities for all</p>
+                        <p class="b-h3 md:px-4">Ruban works to create and make valid 
+                            opportunities for youths in vast fields due 
+                            to its diverse expansion in service to the 
+                            community and world at large.
+                        </p>
+                    </div> <!--End of 3rd benefit-->
+                </section>
+            </div>
+
+            <div class="mt-12">
+                <!--About section-->
+                <section class="about-h">
+                    <h2 class="section-header">About RuBan</h2>
+                    <p class="about-p">The RuBan trans tech is a business setup to commercially invade into the agricultural and logistics sector 
+                        of the Nigerians economy with technology as its driving force. It is an online application that  provides a 
+                        digital of all kinds of food products to upload their goods to a wide range of consumers 
+                        and in addition, offers room for increased exportation of agricultural produce in the country.
+                    </p>
+                    <p class="about-p">On the other hand, we get to improve the lifestyle of the population with a 'can't do without 
+                        commodity' - Food, at its most affordable and healthiest condition. The end result of this goal 
+                        provides:
+                    </p>
+                    <!--Numbered list-->
+                    <div>
+                        <div class="relative">
+                            <!--1-->
+                            <div class="about-num-list-m top-2 -left-1">
+                                <span class="-mx-28">An easy and comfortable
+                                    means of agricultural trade
+                                </span>
+                                <span class="about-list py-0.5">1</span>
+                            </div>
+                            <!--2-->
+                            <div class="about-num-list-r top-24 md:top-24 -right-52 md:-right-56">
+                                <span class="about-list py-1">2</span>
+                                <span class="text-left max-w-36">
+                                    Quick access to fresh foods
+                                </span>
+                            </div>
+                            <!--3-->
+                            <div class="about-num-list-r -bottom-64 p-mini:-bottom-7 md:bottom-2 -right-52 md:-right-96">
+                                <span class="about-list py-1">3</span>
+                                <span class="text-left max-w-36 md:max-w-96">
+                                    A platform that boosts the
+                                    export of diverse food products
+                                </span>
+                            </div>
+                            <!--4-->
+                            <div class="about-num-list-m -bottom-80 -right-3.5 p-mini:-bottom-32 md:-bottom-32">
+                                <span class="about-list py-1">4</span>
+                                <span class="pt-1 -mx-28">
+                                    Affordable purchase of all 
+                                    kinds of foods and fruits
+                                </span>
+                            </div>
+                            <!--5-->
+                            <div class="about-num-list-l -bottom-64 p-mini:-bottom-4 md:bottom-1 md:-left-96">
+                                <span class="about-num-list-l-item">
+                                    A global connection 
+                                    between farmers and 
+                                    manufacturing companies
+                                </span>
+                                <span class="about-list py-1">5</span>
+                            </div>
+                            <!--6-->
+                            <div class="about-num-list-l top-20 p-mini:top-24 md:top-20 md:-left-96">
+                                <span class="about-num-list-l-item -mt-5">
+                                    Increase in the country's
+                                    logistics and agricultural 
+                                    revenue sector
+                                </span>
+                                <span class="about-list py-1">6</span>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+
+            <div class="pt-96">
+                <!--Mission & values-->
+                <section class="bg-primary-100 pt-20 pb-12">
+                    <div class="flex flex-row justify-evenly">
+                        <div class="pl-14">
+                            <h2 class="mv-ht">Our Mission</h2>
+                            <p class="mv-p">To encourage every man in his 
+                                respective field of trade and reinstate unity
+                                and a sense of excellence through teamwork.
+                            </p>
+                            <h2 class="mv-ht mt-4">Our Values</h2>
+                            <ul class="list-disc pl-5 mv-p max-w-64 md:max-w-full"> <!--List of values-->
+                                <li>Living, working and serving with indepth 
+                                    perfection of every segment
+                                </li>
+                                <li>Delivering our very best and holding 
+                                    ourselves accountable for results
+                                </li>
+                                <li>Challenging the status quo and defining 
+                                    our future with innovative and profitable 
+                                    ways
+                                </li>
+                                <li>Continuously having our partner’s 
+                                    wellbeing and growth at heart for every 
+                                    change and advancements made
+                                </li>
+                            </ul>
+                        </div>
+                        <!--Floating images to-right-->
+                        <div class="relative flex w-full overflow-x-hidden -ml-52">
+                            <div class="absolute w-72 top-40 left-6 pl-2 pr-32 md:pr-40">
+                                <img src="images/floating_images/tomato.png" alt="hands holding tomatoes in a bowl"/>
+                            </div>
+                            <div class="absolute w-20 md:w-28 top-32 md-:top-14 lg:-top-14 right-2 md:right-28">
+                                <img src="images/floating_images/grass.png" alt="vegetable farm"/>
+                            </div>
+                            <div class="absolute w-24 md:w-32 right-2 md:right-28 bottom-48 lg:bottom-16 xl:bottom-12">
+                                <img src="images/floating_images/shop.png" alt="fresh vegetable isle"/>
+                            </div>
+                            <!--Image shadows
+                            <div class="w-full h-full absolute pl-2 pr-32 md:pr-40 right-[70px] md:right-[50px]">
+                                <img src="images/floating_images/tomato_shadow.png" alt="tomato image shadow"/>
+                            </div>
+                            <div class="w-full md:w-40 h-full md:h-40 absolute top-[-150px] md:top-[-90px] right-[-180px] md:right-[80px]">
+                                <img src="images/floating_images/grass_shadow.png" alt="grass image shadow"/>
+                            </div>
+                            <div class="w-full h-full md:w-64 md:h-32 xl:w-60 xl:h-28 absolute right-[-50px] md:right-[50px] bottom-[-100px] md:bottom-[120px] lg:bottom-[-50px] xl:bottom-[-10px]">
+                                <img src="images/floating_images/shop_shadow.png" alt="tomato image shadow"/>
+                            </div>-->
+                        </div> <!--End of floating images to-right-->
+                    </div>
+                </section>
+            </div>
+
+            <div class="mt-10">
+                <!--Partners section-->
+                <section class="flex flex-col items-center">
+                    <h2 class="section-header text-center">Our Partners & Stakeholders</h2>
+                    <h3 class="text-center px-3 about-p">The power of our network means
+                        gaining value from all members of the ecosystem
+                    </h3>
+                    <!--Brand logos of partners-->
+                    <div class="flex flex-col md:items-center mt-4">
+                        <div class="partner-logo">
+                            <img class="-ml-32 p-mini:-ml-32 md:-ml-60 mt-4" src="images/partners/radisson_logo.png" alt="Radisson Blu logo"/>
+                            <img class="ml-28 md:ml-64 mt-4" src="images/partners/ecm_terminals.png" alt="ECM Terminals Limited logo"/>
+                        </div>
+                        <div class="partner-logo">
+                            <img class="h-12 p-mini:h-12 md:h-16 -ml-16 p-mini:-ml-16 md:-ml-36 mt-10" src="images/partners/food_angels.png" alt="My Food Angels logo"/>
+                            <img class="h-20 p-mini:h-20 md:h-24 p-mini:ml-14 md:ml-36 mt-5" src="images/partners/maersk.png" alt="Maersk logo"/>
+                        </div>
+                    </div><!--End of brand logos of partners-->
+                </section>
+            </div>
+
+            <div class="bg-primary-300 mt-10">
+                <!--Product categories-->
+                <section id="products" class="pt-10">
+                    <div class="text-white text-center">
+                        <h2 class="font-semibold text-xl">Categories of Products</h2>
+                        <h3 class="pt-2 md:text-xs"> We have a wide range of fresh products
+                            covering different agricultural sectors
+                        </h3>
+                    </div>
+                    <!--Product carousel-->
+                    <div class="mt-7 overflow-x-auto pb-9 px-8">
+                        <!--Cards-->
+                        <div class="flex gap-3">
+                            <!--fish-->
+                            <div class="card">
+                                <img class="product-img" src="images/products/fish.png" alt="frozen fish"/>
+                                <div class="m-2">
+                                    <!--insert rating-->
+                                    <img class="w-16" src="images/svg/rating.svg" alt="star ratings"/>
+                                    <span class="card-text">Fish Products</span>
+                                </div>
+                            </div>
+                            <!--vegetables-->
+                            <div class="card">
+                                <img class="product-img" src="images/products/vegetables.png" alt="vegetables"/>
+                                <div class="m-2">
+                                    <!--insert rating-->
+                                    <img class="w-16" src="images/svg/rating.svg" alt="star ratings"/>
+                                    <span class="card-text">Vegetables</span>
+                                </div>
+                            </div>
+                            <!--nuts and oil-->
+                            <div class="card">
+                                <img class="product-img" src="images/products/nuts.png" alt="nuts and oils"/>
+                                <div class="m-2">
+                                    <!--insert rating-->
+                                    <img class="w-16" src="images/svg/rating.svg" alt="star ratings"/>
+                                    <span class="card-text">Nuts and oil</span>
+                                </div>
+                            </div>
+                            <!--livestock-->
+                            <div class="card">
+                                <img class="product-img" src="images/products/livestock.png" alt="livestock"/>
+                                <div class="m-2">
+                                    <!--insert rating-->
+                                    <img class="w-16" src="images/svg/rating.svg" alt="star ratings"/>
+                                    <span class="card-text">Livestock</span>
+                                </div>
+                            </div> <!--End cards-->
+                        </div>
+                    </div> <!--End product carousel-->
+                </section>
+            </div>
+
+            <!--App promotion-->
+            <div class="-mt-6">
+                <section class="flex justify-center">
+                    <div class="pl-16">
+                        <img class="w-72" src="images/app_screen/phone_screen.png" alt="phone screen"/>
+                    </div>
+                    <div class="mr-16 mt-16">
+                        <h2 class="font-semibold text-xl pt-2">App Coming<br/>Soon</h2>
+                        <a href="#">
+                            <div>
+                                <img class="w-56 mt-2 btn-hover" src="images/app_screen/play_store.png" alt="Google play store"/>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div>
+                                <img class="w-56 mt-2 btn-hover" src="images/app_screen/app_store.png" alt="App store"/>
+                            </div>
+                        </a>
+                    </div>
+                </section>
+            </div>
+
+            <!--Waitlist subscription-->
+            <div class="bg-primary-100 -mt-10">
+                <div class="pt-12 text-center">
+                    <h3 class="font-semibold text-lg">Subscribe  to waitlist</h3>
+                    <h4 class="pt-2 pb-5 px-2 text-sm">Be among the first to be notified
+                        when the app hits the store
+                    </h4>
+                    <div class="pb-10"> <!--Subscription form-->
+                        <form method="post" action="#" id="subscribe">
+                            <input class="rounded-l-lg w-64 h-10 text-center bg-gray-300" type="text" name="email" id="email"
+                            placeholder="johndoe@email.com"
+                            pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" 
+                            maxlength="55" autocomplete="on" required/>
+                            <input class="bg-primary-200 rounded-r-lg h-10 px-2 mt-1 text-white hover:cursor-pointer hover:bg-primary-300" type="button" value="Subscribe"/>
+                        </form>
+                    </div> <!--End subscription form-->
+                </div>
+            </div>
+        </main> <!--End main content-->
+
+        <!--Footer-->
+        <footer>
+            <!--Columns-->
+            <div class="bg-primary-300 px-12 md:pl-16 pt-10 phone-mini:grid phone-mini:grid-cols-3 text-white">
+                <div class="phone-mini:grid phone-mini:grid-rows-2"> <!--Column 1-->
+                    <!--Row 1-->
+                    <div>
+                        <!--Logo-->
+                        <div>
+                            <!--Logo-->
+                            <a href="/" class="text-green-600 flex">
+                                <img class="w-8 h-auto" src="images/svg/logo.svg" alt="logo"/>
+                                <!--Text-->
+                                <span class="py-2 font-bold text-sm">Ru<span class="text-red-700">Ban</span></span>
+                            </a>
+                        </div>
+                        <h3 class="footer-heading">RuBan</h3>
+                        <p class="footer-text">Buy local vegetables, fruits, meat, fish and other 
+                            agricultural produce delivered to you right in 
+                            your city
+                        </p>
+                    </div>
+                    <!--Row 2-->
+                    <div>
+                        <h3 class="footer-heading mt-4" id="contact">Contact</h3>
+                        <a class="footer-text hover:text-red-700" href="mailto: rubantrans.tech@gmail.com?subject=Services Enquiry&body= ">
+                            ruban@gmail.com
+                        </a>
+                    </div><!--End column 1-->
+                </div>
+                <!--Cloumn 2-->
+                <div class="mt-10">
+                    <h3 class="footer-heading">Categories</h3>
+                    <ul class="footer-text">
+                        <li>
+                            <a href="#" class="footer-link">Fish & Fish Products</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer-link">Fruits</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer-link">Cereals</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer-link">Vegetables</a>
+                        </li>
+                    </ul>
+                </div><!--End column 2-->
+                <!--Cloumn 3-->
+                <div class="mt-10 pb-6 phone-l:pb-0">
+                    <h3 class="footer-heading">Benefits</h3>
+                        <ul class="footer-text">
+                            <li>Quick delivery</li>
+                            <li>Employment</li>
+                            <li>Opportunities for all</li>
+                        </ul>
+                </div><!--End column 3-->
+            </div> <!--End columns-->
+            <div class="py-2"> <!--Copyright-->
+                <p class="text-center">© RuBan 2024</p>
+            </div> <!--End copyright-->
+        </footer> <!--End footer-->
+    </div>
 </body>
 </html>
