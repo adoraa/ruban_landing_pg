@@ -2075,7 +2075,7 @@ video {
 }
 
 .bg-hero-img{
-  background-image: url('/images/bg-image01.png');
+  background-image: url("./images/bg-image01.png");
 }
 
 .decoration-slice{
@@ -3432,9 +3432,9 @@ video {
   font-weight: 700;
 }
 
-.hover\:text-red-700:hover{
+.hover\:text-orange-300:hover{
   --tw-text-opacity: 1;
-  color: rgb(185 28 28 / var(--tw-text-opacity));
+  color: rgb(253 186 116 / var(--tw-text-opacity));
 }
 
 .before\:hover\:text-center:hover::before{
