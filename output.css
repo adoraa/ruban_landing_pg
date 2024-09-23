@@ -3456,6 +3456,10 @@ video {
 }
 
 @media (min-width: 425px){
+  .phone-l\:flex{
+    display: flex;
+  }
+
   .phone-l\:pb-0{
     padding-bottom: 0px;
   }
