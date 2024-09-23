@@ -4,6 +4,15 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+    * {
+        @apply box-border;
+    }
+    *::before, *::after {
+        @apply box-border;
+    }
+}
+
 /*about*/
 .about-h{
     @apply flex flex-col items-center text-center
@@ -13,16 +22,12 @@
     @apply bg-red-800 rounded-full text-white text-xs px-2
 }
 
-.about-num-list{
-    @apply text-2xl md:text-base
-}
-
 .about-num-list-l{
-    @apply absolute flex flex-row items-center -left-96 md:-left-80 lg:-left-80
+    @apply absolute flex flex-row items-center -left-56 md:-left-80 lg:-left-80
 }
 
 .about-num-list-l-item{
-    @apply max-w-80 md:max-w-96 text-right pr-4 ml-6 md:pl-8
+    @apply max-w-44 md:max-w-96 text-right pr-2 md:pl-8
 }
 
 .about-num-list-m{
@@ -34,7 +39,7 @@
 }
 
 .about-p{
-    @apply px-32 md:px-28 pt-4 tracking-wide text-2xl md:text-base
+    @apply px-8 md:px-28 pt-4 tracking-wide md:text-base
 }
 
 /*benefits*/
@@ -43,19 +48,19 @@
 }
 
 .benefit-list{
-    @apply flex flex-col items-center text-center px-12 pb-6 md:px-10
+    @apply flex flex-col items-center text-center pb-6 md:px-10
 }
 
 .b-h1{
-    @apply font-semibold text-4xl md:text-xl pt-3
+    @apply font-semibold text-2xl md:text-xl pt-3
 }
 
 .b-h3{
-    @apply px-28 md:px-0 pt-3 text-2xl md:text-base tracking-wide
+    @apply px-8 md:px-0 pt-3 md:text-base tracking-wide
 }
 
 .benefits-icon{
-    @apply w-20 md:w-16
+    @apply w-12 md:w-16
 }
 
 /*bubtton*/
@@ -77,56 +82,56 @@
 }
 
 .card-text{
-    @apply text-2xl md:text-xs font-semibold
+    @apply text-xs font-semibold text-nowrap
 }
 
 /*footer*/
 .footer-heading{
-    @apply pt-2 pb-2 font-semibold text-2xl phone-l:text-base
+    @apply pt-2 pb-2 font-semibold text-lg p-mini:text-base
 }
 
 .footer-text{
-    @apply text-xl phone-l:text-xs phone-l:max-w-32 md:max-w-56 lg:max-w-72 md:text-sm lg:text-base
+    @apply p-mini:text-xs p-mini:max-w-32 md:max-w-56 lg:max-w-72 md:text-sm lg:text-base
 }
 
 .footer-link{
-    @apply hover:text-primary-100 hover:underline
+    @apply hover:underline hover:text-orange-300
 }
 
 /*hero items*/
 .hero-h1{
-    @apply text-5xl font-semibold md:text-5xl
+    @apply text-4xl font-semibold md:text-5xl
 }
 
 .hero-h3{
-    @apply pt-8 text-2xl tracking-wide md:text-base md:pt-6
+    @apply pt-8 text-xl tracking-wide md:text-2xl md:pt-6 md:max-w-2xl space-y-1
 }
 
 /*logo*/
 .logo{
-    @apply w-24 md:w-24 lg:w-20
+    @apply w-8 md:w-24 lg:w-20
 }
 
 .logo-btn{
-    @apply text-green-700 flex pt-14 px-14 md:pt-20 md:px-20
+    @apply text-green-700 flex pt-12 mt-1 pl-8 md:pt-16 md:px-20
 }
 
 .logo-text{
-    @apply pt-6 font-bold text-4xl md:pt-6 md:text-4xl lg:pt-5 lg:text-3xl
+    @apply text-xl font-bold md:pt-6 md:text-4xl lg:pt-5 lg:text-3xl
 }
 
 /*mission and vision header text*/
 .mv-ht{
-   @apply text-green-950 text-4xl md:text-lg font-bold pb-1 md:pb-0
+   @apply text-green-950 text-xl md:text-lg font-bold pb-1 md:pb-0
 }
 
 .mv-p{
-    @apply text-green-950 text-2xl md:text-base space-y-1 md:space-y-0
+    @apply text-green-950 space-y-1 md:space-y-0
 }
 
 /*navigation bar*/
 .nav{
-    @apply font-semibold text-2xl pt-1 md:pt-2 lg:text-xl lg:mr-20 lg:pt-1
+    @apply font-semibold md:pt-2 lg:text-xl lg:mr-20 lg:pt-1
 }
 
 .nav-item{
@@ -139,7 +144,7 @@
 
 /*partners*/
 .partner-logo{
-    @apply flex w-56 p-mini:w-36 md:w-48
+    @apply flex w-36 p-mini:w-36 md:w-48
 }
 
 /*products*/
@@ -149,5 +154,5 @@
 
 /*Section headers*/
 .section-header{
-    @apply text-primary-200 font-semibold text-4xl md:text-5xl
+    @apply text-primary-200 font-semibold text-3xl md:text-4xl
 }
