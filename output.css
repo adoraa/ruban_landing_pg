@@ -774,6 +774,11 @@ video {
   margin-right: 3rem;
 }
 
+.-mx-2{
+  margin-left: -0.5rem;
+  margin-right: -0.5rem;
+}
+
 .-mb-64{
   margin-bottom: -16rem;
 }
@@ -2230,6 +2235,10 @@ video {
   padding-right: 3.5rem;
 }
 
+.pr-2{
+  padding-right: 0.5rem;
+}
+
 .pt-10{
   padding-top: 2.5rem;
 }
@@ -2254,8 +2263,8 @@ video {
   padding-top: 24rem;
 }
 
-.pr-2{
-  padding-right: 0.5rem;
+.pr-24{
+  padding-right: 6rem;
 }
 
 .text-left{
@@ -3051,8 +3060,8 @@ video {
 
 .card-text{
   text-wrap: nowrap;
-  font-size: 0.75rem;
   line-height: 1rem;
+  font-size: 0.5rem;
   font-weight: 600;
 }
 

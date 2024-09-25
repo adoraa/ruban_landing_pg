@@ -86,7 +86,7 @@
 }
 
 .card-text{
-    @apply text-xs font-semibold text-nowrap
+    @apply text-xs font-semibold text-[0.5rem] text-nowrap
 }
 
 /*footer*/
