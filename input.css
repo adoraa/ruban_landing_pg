@@ -31,7 +31,7 @@
 }
 
 .about-num-list-m{
-    @apply absolute flex flex-col items-center
+    @apply md:absolute md:flex md:flex-col md:items-center
 }
 
 .about-num-list-r{
@@ -109,7 +109,7 @@
 
 /*logo*/
 .logo{
-    @apply w-8 md:w-24 lg:w-20
+    @apply w-8 md:w-20
 }
 
 .logo-btn{
@@ -117,7 +117,7 @@
 }
 
 .logo-text{
-    @apply text-xl font-bold md:pt-6 md:text-4xl lg:pt-5 lg:text-3xl
+    @apply text-xl font-bold md:pt-5 md:text-3xl
 }
 
 /*mission and vision header text*/
@@ -131,15 +131,19 @@
 
 /*navigation bar*/
 .nav{
-    @apply font-semibold md:pt-2 lg:text-xl lg:mr-20 lg:pt-1
+    @apply md:font-semibold md:pt-1 md:text-xl md:mr-2
 }
 
 .nav-item{
-    @apply float-left
+    @apply md:float-left
 }
 
 .nav-hover{
-    @apply hover:text-primary-200 hover:underline hover:underline-offset-8
+    @apply hover:underline hover:underline-offset-8
+}
+
+.nav-s{
+    @apply text-primary-300 md:text-black hover:text-primary-100
 }
 
 /*partners*/

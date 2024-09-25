@@ -19,34 +19,44 @@
     <div>
         <!--Nav and hero section-->
         <div class="bg-hero-img bg-cover bg-center">
-            <!--Header-->
+            <!--Nav-->
             <div class="flex justify-between">
                 <!--RuBan logo and text-->
                 <div>
                     <!--Logo-->
-                    <a href="/ruban_landing_pg/index.html" class="logo-btn btn-hover">
+                    <a href="/ruban_landing_pg" class="logo-btn btn-hover">
                         <img class="logo" src="images/svg/logo.svg" alt="logo"/>
                         <!--Text-->
                         <span class="logo-text">Ru<span class="text-red-700">Ban</span></span>
                     </a>
                 </div>
                 <!--Navigation links-->
-                <div>
-                    <nav class="mt-14 md:pt-8">
-                        <ul class="nav">
-                            <li class="nav-item nav-hover">
-                                <a href="#benefits">Benefits</a>
+                <div class="mt-14">
+                    <img class="w-7 mr-4 cursor-pointer md:hidden" id="navbar" src="images/svg/hamburger.svg" alt="navigation bar">
+                    <nav class="md:pt-8">
+                        <ul class="hidden md:block nav" id="nav_menu">
+                            <li class="nav-s nav-item nav-hover mr-8 md:mr-0">
+                                <a href="#benefits">
+                                    <span class="md:hidden">▤</span>
+                                    Benefits
+                                </a>
                             </li>
-                            <li class="nav-item nav-hover px-5">
-                                <a href="#products">Products</a>
+                            <li class="nav-s nav-item nav-hover md:px-5 py-2 md:py-0">
+                                <a href="#products"></a>
+                                    <span class="md:hidden">▤</span>
+                                    Products
+                                </a>
                             </li>
-                            <li class="nav-item nav-hover pr-2">
-                                <a href="#contact">Contact</a>
+                            <li class="nav-s md:float-start nav-hover md:pr-2 -mb-64">
+                                <a href="#contact"></a>
+                                    <span class="md:hidden">▤</span>
+                                    Contact
+                                </a>
                             </li>
                         </ul>
                     </nav>
                 </div>
-            </div> <!--End header-->
+            </div> <!--Nav-->
         
             <!--Hero section-->
             <header class="mt-32 pl-8 md:pl-24">
@@ -117,10 +127,10 @@
                     </p>
                     <!--Numbered list-->
                     <div>
-                        <div class="relative">
+                        <div class="md:relative">
                             <!--1-->
-                            <div class="about-num-list-m top-2 -left-1">
-                                <span class="-mx-28">An easy and comfortable
+                            <div class="about-num-list-m md:top-2 md:-left-1">
+                                <span class="md:-mx-28">An easy and comfortable
                                     means of agricultural trade
                                 </span>
                                 <span class="about-list py-0.5">1</span>
@@ -405,5 +415,6 @@
             </div> <!--End copyright-->
         </footer> <!--End footer-->
     </div>
+    <script src="index.js"></script>
 </body>
 </html>
