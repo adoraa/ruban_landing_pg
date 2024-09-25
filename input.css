@@ -23,23 +23,27 @@
 }
 
 .about-num-list-l{
-    @apply md:absolute md:flex md:flex-row md:items-center md:-left-80 lg:-left-80
+    @apply md:absolute md:flex md:flex-row md:items-center md:-left-80 md:mr-8
 }
 
 .about-num-list-l-item{
-    @apply md:max-w-96 md:text-right pr-2 md:pl-8
+    @apply md:text-right pr-2 md:max-w-96 md:-ml-6
 }
 
 .about-num-list-m{
-    @apply md:absolute md:flex md:flex-col md:items-center
+    @apply md:absolute md:flex md:flex-col md:items-center mb-4 md:mb-0
 }
 
 .about-num-list-r{
-    @apply md:absolute md:flex md:flex-row md:items-center md:space-x-2
+    @apply md:absolute md:flex md:flex-row md:items-center md:space-x-2 md:-right-64 mb-4 md:mb-0
+}
+
+.about-num-list-r-item{
+    @apply md:text-left md:max-w-44
 }
 
 .about-p{
-    @apply px-8 md:px-28 pt-4 tracking-wide md:text-base
+    @apply px-8 md:px-28 pt-4 tracking-wide md:text-base pb-6 md:pb-0
 }
 
 /*benefits*/
