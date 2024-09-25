@@ -20,7 +20,7 @@ module.exports = {
         'phone-s': '320px',
         'phone-m': '375px',
         'phone-l': '425px',
-        'p-mini': '540px'
+        'p-mini': '821px'
       },
     },
   },
