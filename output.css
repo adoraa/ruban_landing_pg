@@ -846,18 +846,6 @@ video {
   margin-top: 1.75rem;
 }
 
-.ml-2{
-  margin-left: 0.5rem;
-}
-
-.ml-4{
-  margin-left: 1rem;
-}
-
-.ml-8{
-  margin-left: 2rem;
-}
-
 .box-border{
   box-sizing: border-box;
 }
@@ -2226,6 +2214,10 @@ video {
   padding-left: 4rem;
 }
 
+.pl-2{
+  padding-left: 0.5rem;
+}
+
 .pl-5{
   padding-left: 1.25rem;
 }
@@ -2262,8 +2254,8 @@ video {
   padding-top: 24rem;
 }
 
-.pl-4{
-  padding-left: 1rem;
+.pr-2{
+  padding-right: 0.5rem;
 }
 
 .text-left{
