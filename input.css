@@ -152,7 +152,7 @@
 
 /*partners*/
 .partner-logo{
-    @apply flex w-36 p-mini:w-36 md:w-48
+    @apply flex justify-center w-36 md:w-48
 }
 
 /*products*/

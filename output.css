@@ -782,14 +782,6 @@ video {
   margin-bottom: -18rem;
 }
 
-.-ml-16{
-  margin-left: -4rem;
-}
-
-.-ml-32{
-  margin-left: -8rem;
-}
-
 .-mt-10{
   margin-top: -2.5rem;
 }
@@ -800,10 +792,6 @@ video {
 
 .mb-4{
   margin-bottom: 1rem;
-}
-
-.ml-28{
-  margin-left: 7rem;
 }
 
 .mr-16{
@@ -856,6 +844,18 @@ video {
 
 .mt-7{
   margin-top: 1.75rem;
+}
+
+.ml-2{
+  margin-left: 0.5rem;
+}
+
+.ml-4{
+  margin-left: 1rem;
+}
+
+.ml-8{
+  margin-left: 2rem;
 }
 
 .box-border{
@@ -2262,6 +2262,10 @@ video {
   padding-top: 24rem;
 }
 
+.pl-4{
+  padding-left: 1rem;
+}
+
 .text-left{
   text-align: left;
 }
@@ -2637,33 +2641,8 @@ video {
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
-.shadow-green-400{
-  --tw-shadow-color: #4ade80;
-  --tw-shadow: var(--tw-shadow-colored);
-}
-
 .shadow-green-300{
   --tw-shadow-color: #86efac;
-  --tw-shadow: var(--tw-shadow-colored);
-}
-
-.shadow-green-200{
-  --tw-shadow-color: #bbf7d0;
-  --tw-shadow: var(--tw-shadow-colored);
-}
-
-.shadow-green-100{
-  --tw-shadow-color: #dcfce7;
-  --tw-shadow: var(--tw-shadow-colored);
-}
-
-.shadow-primary-200{
-  --tw-shadow-color: #009933;
-  --tw-shadow: var(--tw-shadow-colored);
-}
-
-.shadow-red-700{
-  --tw-shadow-color: #b91c1c;
   --tw-shadow: var(--tw-shadow-colored);
 }
 
@@ -3291,17 +3270,12 @@ video {
 .partner-logo{
   display: flex;
   width: 9rem;
+  justify-content: center;
 }
 
 @media (min-width: 768px){
   .partner-logo{
     width: 12rem;
-  }
-}
-
-@media (min-width: 821px){
-  .partner-logo{
-    width: 9rem;
   }
 }
 
@@ -3485,28 +3459,12 @@ video {
     margin-bottom: -0px;
   }
 
-  .md\:-ml-36{
-    margin-left: -9rem;
-  }
-
-  .md\:-ml-60{
-    margin-left: -15rem;
-  }
-
   .md\:mb-0{
     margin-bottom: 0px;
   }
 
-  .md\:ml-36{
-    margin-left: 9rem;
-  }
-
   .md\:ml-4{
     margin-left: 1rem;
-  }
-
-  .md\:ml-64{
-    margin-left: 16rem;
   }
 
   .md\:mr-0{
@@ -3547,10 +3505,6 @@ video {
 
   .md\:flex-row{
     flex-direction: row;
-  }
-
-  .md\:items-center{
-    align-items: center;
   }
 
   .md\:justify-between{
@@ -3599,28 +3553,6 @@ video {
   .md\:text-xs{
     font-size: 0.75rem;
     line-height: 1rem;
-  }
-}
-
-@media (min-width: 821px){
-  .p-mini\:-ml-16{
-    margin-left: -4rem;
-  }
-
-  .p-mini\:-ml-32{
-    margin-left: -8rem;
-  }
-
-  .p-mini\:ml-14{
-    margin-left: 3.5rem;
-  }
-
-  .p-mini\:h-12{
-    height: 3rem;
-  }
-
-  .p-mini\:h-20{
-    height: 5rem;
   }
 }
 
