@@ -91,11 +91,11 @@
 
 /*footer*/
 .footer-heading{
-    @apply pt-2 pb-2 font-semibold text-lg p-mini:text-base
+    @apply pt-2 md:pb-2 font-semibold md:text-lg
 }
 
 .footer-text{
-    @apply p-mini:text-xs p-mini:max-w-32 md:max-w-56 lg:max-w-72 md:text-sm lg:text-base
+    @apply text-xs md:max-w-56 lg:max-w-72 md:text-sm lg:text-base
 }
 
 .footer-link{

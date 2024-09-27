@@ -794,10 +794,6 @@ video {
   margin-bottom: 1rem;
 }
 
-.ml-8{
-  margin-left: 2rem;
-}
-
 .mr-16{
   margin-right: 4rem;
 }
@@ -848,10 +844,6 @@ video {
 
 .mt-7{
   margin-top: 1.75rem;
-}
-
-.ml-3{
-  margin-left: 0.75rem;
 }
 
 .box-border{
@@ -2148,10 +2140,6 @@ video {
      object-fit: scale-down;
 }
 
-.p-3{
-  padding: 0.75rem;
-}
-
 .px-1{
   padding-left: 0.25rem;
   padding-right: 0.25rem;
@@ -2234,6 +2222,10 @@ video {
   padding-left: 0.5rem;
 }
 
+.pl-3{
+  padding-left: 0.75rem;
+}
+
 .pl-5{
   padding-left: 1.25rem;
 }
@@ -2272,22 +2264,6 @@ video {
 
 .pt-96{
   padding-top: 24rem;
-}
-
-.pl-3{
-  padding-left: 0.75rem;
-}
-
-.pb-2{
-  padding-bottom: 0.5rem;
-}
-
-.pb-44{
-  padding-bottom: 11rem;
-}
-
-.pb-24{
-  padding-bottom: 6rem;
 }
 
 .text-left{
@@ -3092,17 +3068,20 @@ video {
 
 .footer-heading{
   padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
-  font-size: 1.125rem;
-  line-height: 1.75rem;
   font-weight: 600;
 }
 
-@media (min-width: 821px){
+@media (min-width: 768px){
   .footer-heading{
-    font-size: 1rem;
-    line-height: 1.5rem;
+    padding-bottom: 0.5rem;
+    font-size: 1.125rem;
+    line-height: 1.75rem;
   }
+}
+
+.footer-text{
+  font-size: 0.75rem;
+  line-height: 1rem;
 }
 
 @media (min-width: 768px){
@@ -3110,14 +3089,6 @@ video {
     max-width: 14rem;
     font-size: 0.875rem;
     line-height: 1.25rem;
-  }
-}
-
-@media (min-width: 821px){
-  .footer-text{
-    max-width: 8rem;
-    font-size: 0.75rem;
-    line-height: 1rem;
   }
 }
 
@@ -3492,10 +3463,6 @@ video {
     margin-bottom: 0px;
   }
 
-  .md\:ml-0{
-    margin-left: 0px;
-  }
-
   .md\:ml-4{
     margin-left: 1rem;
   }
@@ -3508,12 +3475,24 @@ video {
     margin-right: 1rem;
   }
 
+  .md\:mt-10{
+    margin-top: 2.5rem;
+  }
+
+  .md\:mt-4{
+    margin-top: 1rem;
+  }
+
   .md\:block{
     display: block;
   }
 
   .md\:flex{
     display: flex;
+  }
+
+  .md\:grid{
+    display: grid;
   }
 
   .md\:hidden{
@@ -3534,6 +3513,14 @@ video {
 
   .md\:max-w-xl{
     max-width: 36rem;
+  }
+
+  .md\:grid-cols-3{
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .md\:grid-rows-2{
+    grid-template-rows: repeat(2, minmax(0, 1fr));
   }
 
   .md\:flex-row{
@@ -3567,6 +3554,10 @@ video {
     padding-bottom: 0px;
   }
 
+  .md\:pl-0{
+    padding-left: 0px;
+  }
+
   .md\:pl-16{
     padding-left: 4rem;
   }
@@ -3585,10 +3576,6 @@ video {
 
   .md\:pt-8{
     padding-top: 2rem;
-  }
-
-  .md\:pl-0{
-    padding-left: 0px;
   }
 
   .md\:text-center{
