@@ -1851,10 +1851,6 @@ video {
   border-radius: 0.25rem;
 }
 
-.rounded-2xl{
-  border-radius: 1rem;
-}
-
 .rounded-\[3\.2rem\]{
   border-radius: 3.2rem;
 }
@@ -1894,19 +1890,14 @@ video {
   border-end-start-radius: 0.25rem;
 }
 
-.rounded-t{
-  border-top-left-radius: 0.25rem;
-  border-top-right-radius: 0.25rem;
-}
-
-.rounded-e-2xl{
-  border-start-end-radius: 1rem;
-  border-end-end-radius: 1rem;
-}
-
 .rounded-s-2xl{
   border-start-start-radius: 1rem;
   border-end-start-radius: 1rem;
+}
+
+.rounded-t{
+  border-top-left-radius: 0.25rem;
+  border-top-right-radius: 0.25rem;
 }
 
 .rounded-bl{
@@ -1939,14 +1930,6 @@ video {
 
 .rounded-tr{
   border-top-right-radius: 0.25rem;
-}
-
-.rounded-ss-2xl{
-  border-start-start-radius: 1rem;
-}
-
-.rounded-se-2xl{
-  border-start-end-radius: 1rem;
 }
 
 .border{
@@ -2208,6 +2191,11 @@ video {
   padding-bottom: 0.5rem;
 }
 
+.py-3{
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+}
+
 .pb-10{
   padding-bottom: 2.5rem;
 }
@@ -2282,14 +2270,6 @@ video {
 
 .pt-96{
   padding-top: 24rem;
-}
-
-.pt-3{
-  padding-top: 0.75rem;
-}
-
-.pb-3{
-  padding-bottom: 0.75rem;
 }
 
 .text-left{
@@ -3250,13 +3230,30 @@ video {
 
 /*navigation bar*/
 
+.line{
+  border-top-width: 2px;
+  border-bottom-width: 2px;
+  --tw-border-opacity: 1;
+  border-color: rgb(240 253 244 / var(--tw-border-opacity));
+}
+
+@media (min-width: 768px){
+  .line{
+    border-top-width: 0px;
+    border-bottom-width: 0px;
+  }
+}
+
+.nav{
+  font-weight: 600;
+}
+
 @media (min-width: 768px){
   .nav{
     margin-right: 0.5rem;
     padding-top: 0.25rem;
     font-size: 1.25rem;
     line-height: 1.75rem;
-    font-weight: 600;
   }
 
   .nav-item{
@@ -3276,7 +3273,7 @@ video {
 
 .nav-s{
   --tw-text-opacity: 1;
-  color: rgb(0 102 51 / var(--tw-text-opacity));
+  color: rgb(240 253 244 / var(--tw-text-opacity));
 }
 
 .nav-s:hover{
@@ -3424,12 +3421,6 @@ video {
 
 .hover\:focus\:text-center:focus:hover{
   text-align: center;
-}
-
-@media (min-width: 425px){
-  .phone-l\:pb-0{
-    padding-bottom: 0px;
-  }
 }
 
 @media (min-width: 640px){
@@ -3604,14 +3595,6 @@ video {
     padding-top: 2rem;
   }
 
-  .md\:pt-0{
-    padding-top: 0px;
-  }
-
-  .md\:pb-0{
-    padding-bottom: 0px;
-  }
-
   .md\:text-center{
     text-align: center;
   }
@@ -3619,13 +3602,5 @@ video {
   .md\:text-xs{
     font-size: 0.75rem;
     line-height: 1rem;
-  }
-}
-
-@media (prefers-color-scheme: dark){
-  @media (min-width: 1024px){
-    .dark\:lg\:hover\:\[paint-order\:markers\]:hover{
-      paint-order: markers;
-    }
   }
 }

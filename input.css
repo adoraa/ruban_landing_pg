@@ -134,8 +134,12 @@
 }
 
 /*navigation bar*/
+.line{
+    @apply border-t-2 md:border-t-0 border-b-2 md:border-b-0 border-primary-100
+}
+
 .nav{
-    @apply md:font-semibold md:pt-1 md:text-xl md:mr-2
+    @apply font-semibold md:pt-1 md:text-xl md:mr-2
 }
 
 .nav-item{
@@ -147,7 +151,7 @@
 }
 
 .nav-s{
-    @apply text-primary-300 md:text-black hover:text-primary-200
+    @apply text-primary-100 md:text-black hover:text-primary-200
 }
 
 /*partners*/
