@@ -143,11 +143,11 @@
 }
 
 .nav-hover{
-    @apply hover:underline hover:underline-offset-8
+    @apply md:hover:underline hover:underline-offset-8
 }
 
 .nav-s{
-    @apply text-primary-300 md:text-black hover:text-primary-100
+    @apply text-primary-300 md:text-black hover:text-primary-200
 }
 
 /*partners*/
