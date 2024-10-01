@@ -23,23 +23,27 @@
 }
 
 .about-num-list-l{
-    @apply md:absolute md:flex md:flex-row md:items-center md:-left-80 md:mr-8
+    @apply md:absolute flex md:flex-row md:items-center md:-left-80 md:mr-8
 }
 
 .about-num-list-l-item{
-    @apply md:text-right pr-2 md:max-w-96 md:-ml-6
+    @apply md:text-right md:pr-2 md:max-w-96 md:-ml-6 md:block pl-4 md:pl-0
 }
 
 .about-num-list-m{
-    @apply md:absolute md:flex md:flex-col md:items-center mb-4 md:mb-0
+    @apply md:absolute flex md:flex-col md:items-center mb-4 md:mb-0
+}
+
+.about-num-list-m-item{
+    @apply pl-4 md:pl-0
 }
 
 .about-num-list-r{
-    @apply md:absolute md:flex md:flex-row md:items-center md:space-x-2 md:-right-64 mb-4 md:mb-0
+    @apply md:absolute flex md:flex-row md:items-center md:space-x-2 md:-right-64 mb-4 md:mb-0
 }
 
 .about-num-list-r-item{
-    @apply md:text-left md:max-w-44
+    @apply md:text-left md:max-w-44 pl-4 md:pl-0
 }
 
 .about-p{
