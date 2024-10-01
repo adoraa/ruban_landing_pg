@@ -769,11 +769,6 @@ video {
   margin: 0.5rem;
 }
 
-.-mx-24{
-  margin-left: -6rem;
-  margin-right: -6rem;
-}
-
 .mx-12{
   margin-left: 3rem;
   margin-right: 3rem;
@@ -785,6 +780,10 @@ video {
 
 .-mb-72{
   margin-bottom: -18rem;
+}
+
+.-ml-12{
+  margin-left: -3rem;
 }
 
 .-mt-1{
@@ -811,8 +810,8 @@ video {
   margin-bottom: 2rem;
 }
 
-.ml-0{
-  margin-left: 0px;
+.ml-20{
+  margin-left: 5rem;
 }
 
 .ml-32{
@@ -869,34 +868,6 @@ video {
 
 .mt-7{
   margin-top: 1.75rem;
-}
-
-.-ml-24{
-  margin-left: -6rem;
-}
-
-.ml-24{
-  margin-left: 6rem;
-}
-
-.-ml-20{
-  margin-left: -5rem;
-}
-
-.-ml-16{
-  margin-left: -4rem;
-}
-
-.-ml-14{
-  margin-left: -3.5rem;
-}
-
-.-ml-12{
-  margin-left: -3rem;
-}
-
-.ml-20{
-  margin-left: 5rem;
 }
 
 .box-border{
@@ -3096,7 +3067,7 @@ video {
 
 .subscribe{
   margin-top: 2rem;
-  margin-bottom: 9rem;
+  margin-bottom: 6rem;
   --tw-bg-opacity: 1;
   background-color: rgb(0 102 51 / var(--tw-bg-opacity));
   padding-left: 0.5rem;
@@ -3113,6 +3084,17 @@ video {
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
   --tw-shadow-color: #009933;
   --tw-shadow: var(--tw-shadow-colored);
+}
+
+@media (min-width: 768px){
+  .subscribe{
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
 }
 
 /*card*/
@@ -3692,5 +3674,9 @@ video {
 
   .md\:opacity-0{
     opacity: 0;
+  }
+
+  .md\:opacity-100{
+    opacity: 1;
   }
 }
