@@ -2493,6 +2493,10 @@ video {
   -moz-osx-font-smoothing: auto;
 }
 
+.opacity-70{
+  opacity: 0.7;
+}
+
 .bg-blend-normal{
   background-blend-mode: normal;
 }
@@ -3472,6 +3476,11 @@ video {
     margin-right: 0px;
   }
 
+  .md\:-mx-20{
+    margin-left: -5rem;
+    margin-right: -5rem;
+  }
+
   .md\:-mb-0{
     margin-bottom: -0px;
   }
@@ -3602,5 +3611,9 @@ video {
   .md\:text-xs{
     font-size: 0.75rem;
     line-height: 1rem;
+  }
+
+  .md\:opacity-0{
+    opacity: 0;
   }
 }
