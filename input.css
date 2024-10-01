@@ -81,7 +81,7 @@
 }
 
 .subscribe{
-    @apply  mt-16 mb-36 px-5 py-5 text-2xl bg-primary-300 text-center hover:shadow-primary-200 hover:shadow-lg
+    @apply  mt-8 mb-36 px-2 py-2 tracking-wide bg-primary-300 text-center hover:shadow-primary-200 hover:shadow-lg
 }
 
 /*card*/
@@ -108,11 +108,11 @@
 
 /*hero items*/
 .hero-h1{
-    @apply text-4xl font-semibold md:text-5xl
+    @apply text-2xl font-semibold md:text-5xl
 }
 
 .hero-h3{
-    @apply pt-8 text-xl tracking-wide md:text-2xl md:pt-6 md:max-w-2xl space-y-1
+    @apply pt-2 tracking-wide md:text-2xl md:pt-6 md:max-w-2xl space-y-1
 }
 
 /*logo*/
