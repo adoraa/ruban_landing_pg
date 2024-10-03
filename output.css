@@ -870,6 +870,10 @@ video {
   margin-top: 1.75rem;
 }
 
+.ml-20{
+  margin-left: 5rem;
+}
+
 .box-border{
   box-sizing: border-box;
 }
@@ -2957,6 +2961,7 @@ video {
     padding-left: 7rem;
     padding-right: 7rem;
     padding-bottom: 0px;
+    text-align: center;
   }
 }
 
@@ -3344,6 +3349,7 @@ video {
   padding-right: 2rem;
   padding-top: 1rem;
   padding-bottom: 1.5rem;
+  text-align: center;
   letter-spacing: 0.025em;
 }
 
@@ -3605,6 +3611,10 @@ video {
 
   .md\:flex-row{
     flex-direction: row;
+  }
+
+  .md\:items-center{
+    align-items: center;
   }
 
   .md\:justify-between{
