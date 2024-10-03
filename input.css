@@ -23,7 +23,7 @@
 }
 
 .about-num-list-l{
-    @apply md:absolute flex md:flex-row md:items-center md:-left-80 md:mr-8
+    @apply md:absolute flex md:flex-row md:items-center md:-left-80 md:mr-8 text-justify
 }
 
 .about-num-list-l-item{
@@ -31,7 +31,7 @@
 }
 
 .about-num-list-m{
-    @apply md:absolute flex md:flex-col md:items-center mb-4 md:mb-0
+    @apply md:absolute flex md:flex-col md:items-center mb-4 md:mb-0 text-justify md:text-center
 }
 
 .about-num-list-m-item{
@@ -39,7 +39,7 @@
 }
 
 .about-num-list-r{
-    @apply md:absolute flex md:flex-row md:items-center md:space-x-2 md:-right-64 mb-4 md:mb-0
+    @apply md:absolute flex md:flex-row md:items-center md:space-x-2 md:-right-64 mb-4 md:mb-0 text-justify
 }
 
 .about-num-list-r-item{
@@ -65,6 +65,10 @@
 
 .b-h3{
     @apply px-8 pt-3 tracking-wide
+}
+
+.b-h3-l{
+    @apply md:px-0 md:max-w-xl
 }
 
 .benefits-icon{
@@ -138,6 +142,10 @@
 }
 
 /*navigation bar*/
+.hamburger-menu{
+    @apply md:pt-8 rounded-s-2xl md:rounded-none bg-primary-300 md:bg-transparent bg-opacity-85 md:bg-opacity-100 pl-3 md:pl-0
+}
+
 .line{
     @apply border-t-2 md:border-t-0 border-b-2 md:border-b-0 border-primary-100
 }
