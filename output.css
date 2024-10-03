@@ -2043,6 +2043,14 @@ video {
   background-color: rgb(0 102 51 / var(--tw-bg-opacity));
 }
 
+.bg-opacity-85{
+  --tw-bg-opacity: 0.85;
+}
+
+.bg-opacity-80{
+  --tw-bg-opacity: 0.8;
+}
+
 .bg-hero-img{
   background-image: url("images/bg-image01.png");
 }
@@ -3616,6 +3624,10 @@ video {
     background-color: transparent;
   }
 
+  .md\:bg-opacity-100{
+    --tw-bg-opacity: 1;
+  }
+
   .md\:px-0{
     padding-left: 0px;
     padding-right: 0px;
@@ -3670,10 +3682,6 @@ video {
   .md\:text-xs{
     font-size: 0.75rem;
     line-height: 1rem;
-  }
-
-  .md\:opacity-0{
-    opacity: 0;
   }
 
   .md\:opacity-100{
