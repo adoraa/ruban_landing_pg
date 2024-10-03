@@ -64,7 +64,7 @@
 }
 
 .b-h3{
-    @apply px-8 pt-3 md:text-base tracking-wide
+    @apply px-8 pt-3 tracking-wide
 }
 
 .benefits-icon{
