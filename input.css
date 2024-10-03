@@ -81,7 +81,7 @@
 }
 
 .subscribe{
-    @apply  mt-8 mb-24 px-2 md:px-4 py-2 md:py-4 md:text-2xl tracking-wide bg-primary-300 text-center hover:shadow-primary-200 hover:shadow-lg
+    @apply  mt-8 mb-24 px-2 md:px-4 py-2 md:py-4 text-lg md:text-2xl tracking-wide bg-primary-300 text-center hover:shadow-primary-200 hover:shadow-lg
 }
 
 /*card*/
