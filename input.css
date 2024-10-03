@@ -164,7 +164,7 @@
 }
 
 .partner-p{
-    @apply pt-4 tracking-wide pb-6 md:pb-0
+    @apply pl-14 pr-14 pt-4 tracking-wide pb-6 md:pb-0
 }
 
 /*products*/
@@ -174,5 +174,5 @@
 
 /*Section headers*/
 .section-header{
-    @apply text-primary-200 font-semibold text-3xl md:text-4xl
+    @apply text-primary-200 font-semibold text-2xl md:text-4xl
 }
