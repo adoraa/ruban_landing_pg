@@ -882,6 +882,18 @@ video {
   margin-bottom: 3rem;
 }
 
+.ml-2{
+  margin-left: 0.5rem;
+}
+
+.ml-28{
+  margin-left: 7rem;
+}
+
+.ml-16{
+  margin-left: 4rem;
+}
+
 .box-border{
   box-sizing: border-box;
 }
