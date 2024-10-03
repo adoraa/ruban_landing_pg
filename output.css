@@ -870,6 +870,10 @@ video {
   margin-top: 1.75rem;
 }
 
+.mt-8{
+  margin-top: 2rem;
+}
+
 .box-border{
   box-sizing: border-box;
 }
@@ -3021,13 +3025,6 @@ video {
   letter-spacing: 0.025em;
 }
 
-@media (min-width: 768px){
-  .b-h3{
-    font-size: 1rem;
-    line-height: 1.5rem;
-  }
-}
-
 .benefits-icon{
   width: 3rem;
 }
@@ -3560,6 +3557,10 @@ video {
 
   .md\:mt-4{
     margin-top: 1rem;
+  }
+
+  .md\:mt-32{
+    margin-top: 8rem;
   }
 
   .md\:block{
