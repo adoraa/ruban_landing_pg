@@ -870,6 +870,26 @@ video {
   margin-top: 1.75rem;
 }
 
+.ml-12{
+  margin-left: 3rem;
+}
+
+.-ml-10{
+  margin-left: -2.5rem;
+}
+
+.ml-10{
+  margin-left: 2.5rem;
+}
+
+.ml-9{
+  margin-left: 2.25rem;
+}
+
+.ml-5{
+  margin-left: 1.25rem;
+}
+
 .box-border{
   box-sizing: border-box;
 }
@@ -3336,8 +3356,17 @@ video {
 }
 
 .partner-p{
-  @applpx-8 pt-4 tracking-wide pb-6 md:pb-0 text-center
+  padding-left: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1.5rem;
+  text-align: center;
+  letter-spacing: 0.025em;
+}
 
+@media (min-width: 768px){
+  .partner-p{
+    padding-bottom: 0px;
+  }
 }
 
 /*products*/

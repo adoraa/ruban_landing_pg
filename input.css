@@ -164,7 +164,7 @@
 }
 
 .partner-p{
-    @apply pt-4 tracking-wide pb-6 md:pb-0 text-center
+    @apply pl-8 pt-4 tracking-wide pb-6 md:pb-0 text-center
 }
 
 /*products*/
