@@ -822,8 +822,8 @@ video {
   margin-left: 4rem;
 }
 
-.ml-28{
-  margin-left: 7rem;
+.ml-24{
+  margin-left: 6rem;
 }
 
 .mr-16{
@@ -2240,10 +2240,6 @@ video {
   padding-bottom: 2.25rem;
 }
 
-.pl-14{
-  padding-left: 3.5rem;
-}
-
 .pl-16{
   padding-left: 4rem;
 }
@@ -2952,6 +2948,7 @@ video {
   padding-right: 2rem;
   padding-top: 1rem;
   padding-bottom: 1.5rem;
+  text-align: justify;
   letter-spacing: 0.025em;
 }
 
@@ -3343,8 +3340,8 @@ video {
 }
 
 .partner-p{
-  padding-left: 3.5rem;
-  padding-right: 3.5rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
   padding-top: 1rem;
   padding-bottom: 1.5rem;
   letter-spacing: 0.025em;

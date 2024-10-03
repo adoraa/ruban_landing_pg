@@ -47,7 +47,7 @@
 }
 
 .about-p{
-    @apply px-8 md:px-28 pt-4 tracking-wide pb-6 md:pb-0
+    @apply px-8 md:px-28 pt-4 tracking-wide pb-6 md:pb-0 text-justify md:text-center
 }
 
 /*benefits*/
@@ -164,7 +164,7 @@
 }
 
 .partner-p{
-    @apply pl-14 pr-14 pt-4 tracking-wide pb-6 md:pb-0
+    @apply px-8 pt-4 tracking-wide pb-6 md:pb-0 text-justify md:text-center
 }
 
 /*products*/
