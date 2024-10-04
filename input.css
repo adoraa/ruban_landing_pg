@@ -97,6 +97,10 @@
     @apply text-xs font-semibold text-[0.5rem] text-nowrap
 }
 
+.rating{
+    @apply w-16 -mb-1
+}
+
 /*footer*/
 .footer-heading{
     @apply pt-2 md:pb-2 font-semibold md:text-lg
