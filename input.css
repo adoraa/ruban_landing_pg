@@ -125,7 +125,7 @@
 }
 
 .logo-btn{
-    @apply text-green-700 flex pt-12 mt-1.5 pl-8 md:pt-16
+    @apply text-green-700 flex pt-12 mt-1.5 md:mt-1 pl-8 md:pt-16
 }
 
 .logo-text{

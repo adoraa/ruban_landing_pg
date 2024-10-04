@@ -13,6 +13,9 @@
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
     <link href="./output.css" rel="stylesheet">
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script type="text/javascript" src="emailjs-init.js"></script>
+    <script type="text/javascript" src="subscribe.js"></script>
 </head>
 <body class="font-poppins">
     <!--Content wrapper-->
@@ -128,22 +131,22 @@
                         <div class="md:relative">
                             <!--1-->
                             <div class="about-num-list-m md:top-2 md:-left-1">
-                                <span class="md:hidden about-list py-0.5 mb-8">1</span>
-                                <span class="md:-mx-28 md:mb-0 -mt-1 md:-mt-0 about-num-list-m-item">An easy and comfortable
+                                <span class="md:hidden about-list py-0.5 mb-28">1</span>
+                                <span class="md:-mx-28 -mb-80 md:-mb-0 -mt-1 md:-mt-0 about-num-list-m-item">An easy and comfortable
                                     means of agricultural trade
                                 </span>
                                 <span class="hidden md:block about-list py-0.5">1</span>
                             </div>
                             <!--2-->
                             <div class="about-num-list-r md:top-24">
-                                <span class="about-list py-1">2</span>
+                                <span class="about-list py-1 mb-10 md:mb-0">2</span>
                                 <span class="about-num-list-r-item">
                                     Quick access to fresh foods
                                 </span>
                             </div>
                             <!--3-->
                             <div class="about-num-list-r md:top-44">
-                                <span class="about-list py-1 mb-6 md:mb-0">3</span>
+                                <span class="about-list py-1 mb-28 md:mb-0">3</span>
                                 <span class="about-num-list-r-item">
                                     A platform that boosts the
                                     export of diverse food products
@@ -151,7 +154,7 @@
                             </div>
                             <!--4-->
                             <div class="about-num-list-m md:-right-4 md:top-64">
-                                <span class="about-list py-1 mb-6">4</span>
+                                <span class="about-list py-1 mb-20 md:mb-0">4</span>
                                 <span class="md:pt-1 md:-mx-28 about-num-list-m-item">
                                     Affordable purchase of all 
                                     kinds of foods and fruits
@@ -159,7 +162,7 @@
                             </div>
                             <!--5-->
                             <div class="about-num-list-l md:top-44 mb-4 md:mb-0">
-                                <span class="md:hidden about-list py-1 mb-12">5</span>
+                                <span class="md:hidden about-list py-1 mb-32">5</span>
                                 <span class="about-num-list-l-item">
                                     A global connection 
                                     between farmers and 
@@ -169,7 +172,7 @@
                             </div>
                             <!--6-->
                             <div class="about-num-list-l md:top-24">
-                                <span class="md:hidden about-list py-1 mb-6">6</span>
+                                <span class="md:hidden about-list py-1 mb-28">6</span>
                                 <span class="about-num-list-l-item">
                                     Increase in the country's
                                     logistics and agricultural 
@@ -335,19 +338,24 @@
             <!--Waitlist subscription-->
             <div class="bg-primary-100 -mt-10">
                 <div class="pt-12 text-center">
-                    <h3 class="font-semibold text-lg">Subscribe  to waitlist</h3>
-                    <h4 class="pt-2 pb-5 px-8 text-sm">Be among the first to be notified
-                        when the app hits the store
-                    </h4>
-                    <div class="pb-10"> <!--Subscription form-->
-                        <form method="post" action="#" id="subscribe">
-                            <input class="rounded-l-lg w-64 h-10 text-center bg-gray-300" type="text" name="email" id="email"
-                            placeholder="johndoe@email.com"
-                            pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" 
-                            maxlength="55" autocomplete="on" required/>
-                            <input class="bg-primary-200 rounded-r-lg h-10 px-2 mt-1 text-white hover:cursor-pointer hover:bg-primary-300" type="button" value="Subscribe"/>
+                    <h3 class="font-semibold text-lg">Subscribe to waitlist</h3>
+                    <h4 class="pt-2 pb-5 px-8 text-sm">Be among the first to be notified when the app hits the store</h4>
+                    <div class="pb-10">
+                        <!--Subscription form-->
+                        <form id="subscribe">
+                            <input class="rounded-l-lg w-64 h-10 text-center bg-gray-300" 
+                                type="email" 
+                                name="email" 
+                                id="email"
+                                placeholder="johndoe@email.com"
+                                pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$"
+                                maxlength="55" 
+                                autocomplete="email" 
+                                required />                     
+                            <input class="bg-primary-200 rounded-r-lg h-10 px-2 mt-1 text-white hover:cursor-pointer hover:bg-primary-300"
+                                type="button" value="Subscribe"/>
                         </form>
-                    </div> <!--End subscription form-->
+                    </div>
                 </div>
             </div>
         </main> <!--End main content-->
