@@ -782,6 +782,10 @@ video {
   margin-bottom: -18rem;
 }
 
+.-mb-80{
+  margin-bottom: -20rem;
+}
+
 .-ml-10{
   margin-left: -2.5rem;
 }
@@ -802,16 +806,16 @@ video {
   margin-top: -1.5rem;
 }
 
-.mb-12{
-  margin-bottom: 3rem;
+.mb-0{
+  margin-bottom: 0px;
+}
+
+.mb-14{
+  margin-bottom: 3.5rem;
 }
 
 .mb-4{
   margin-bottom: 1rem;
-}
-
-.mb-6{
-  margin-bottom: 1.5rem;
 }
 
 .mb-8{
@@ -870,40 +874,8 @@ video {
   margin-top: 1.75rem;
 }
 
-.mb-28{
-  margin-bottom: 7rem;
-}
-
-.mb-20{
-  margin-bottom: 5rem;
-}
-
-.mb-16{
-  margin-bottom: 4rem;
-}
-
-.mb-14{
-  margin-bottom: 3.5rem;
-}
-
-.mb-10{
-  margin-bottom: 2.5rem;
-}
-
-.mb-32{
-  margin-bottom: 8rem;
-}
-
-.-mb-5{
-  margin-bottom: -1.25rem;
-}
-
-.-mb-28{
-  margin-bottom: -7rem;
-}
-
-.-mb-80{
-  margin-bottom: -20rem;
+.mb-12{
+  margin-bottom: 3rem;
 }
 
 .box-border{
@@ -2298,8 +2270,20 @@ video {
   padding-top: 0.5rem;
 }
 
+.pt-4{
+  padding-top: 1rem;
+}
+
+.pt-5{
+  padding-top: 1.25rem;
+}
+
 .pt-80{
   padding-top: 20rem;
+}
+
+.pt-8{
+  padding-top: 2rem;
 }
 
 .text-left{
@@ -2877,6 +2861,7 @@ video {
 
 .about-num-list-l{
   display: flex;
+  padding-top: 0px;
   text-align: justify;
 }
 
@@ -2887,6 +2872,7 @@ video {
     margin-right: 2rem;
     flex-direction: row;
     align-items: center;
+    padding-top: 0px;
   }
 }
 
@@ -2906,17 +2892,17 @@ video {
 }
 
 .about-num-list-m{
-  margin-bottom: 1rem;
   display: flex;
+  padding-bottom: 1rem;
   text-align: justify;
 }
 
 @media (min-width: 768px){
   .about-num-list-m{
     position: absolute;
-    margin-bottom: 0px;
     flex-direction: column;
     align-items: center;
+    padding-bottom: 0px;
     text-align: center;
   }
 }
@@ -2932,7 +2918,6 @@ video {
 }
 
 .about-num-list-r{
-  margin-bottom: 1rem;
   display: flex;
   text-align: justify;
 }
@@ -2941,7 +2926,6 @@ video {
   .about-num-list-r{
     position: absolute;
     right: -16rem;
-    margin-bottom: 0px;
     flex-direction: row;
     align-items: center;
   }
@@ -3683,6 +3667,10 @@ video {
 
   .md\:pr-2{
     padding-right: 0.5rem;
+  }
+
+  .md\:pt-0{
+    padding-top: 0px;
   }
 
   .md\:pt-1{
