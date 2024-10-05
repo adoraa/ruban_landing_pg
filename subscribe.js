@@ -1,6 +1,9 @@
 window.onload = function() {
     document.getElementById('subscribe').addEventListener('submit', function(event) {
         event.preventDefault(); // Prevent form from submitting the default way
+        // Show a loading message or disable the button
+        const form = document.getElementById('subscribe');
+        form.innerHTML = `<p class="text-blue-600 font-semibold">Submitting...</p>`;
 
         // Send form data via EmailJS
         emailjs.sendForm('service_8i4eff3', 'template_lt2w09u', this)
