@@ -18,8 +18,4 @@ window.onload = function() {
                 alert("Oops! Something went wrong: " + error.text);
             });
     });
-    // Close the modal when the user clicks the 'Close' button
-    document.getElementById('close-popup').addEventListener('click', function() {
-        document.getElementById('popup-modal').classList.add('hidden');
-    });
 };
