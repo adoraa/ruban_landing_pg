@@ -13,9 +13,6 @@
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
     <link href="./output.css" rel="stylesheet">
-    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
-    <script src="emailjs-init.js"></script>
-    <script src="subscribe.js"></script>
 </head>
 <body class="font-poppins">
     <!--Content wrapper-->
@@ -34,12 +31,12 @@
                     </a>
                 </div>
                 <!--Navigation links-->
-                <div class="mt-14 relative md:block">
-                    <div class="relative">
-                        <img class="w-7 mr-8 -mt-0.5 cursor-pointer md:hidden" id="navbar"
+                <div class="mt-14 relative md:static">
+                    <div class="relative md:hidden">
+                        <img class="w-7 mr-8 -mt-0.5 cursor-pointer" id="navbar"
                             src="images/svg/hamburger.svg" alt="navigation bar">
                     </div>
-                    <div class="absolute md:block right-8 md:right-0 w-40">
+                    <div class="absolute md:static right-8 md:right-0 w-40">
                         <nav class="hamburger-menu">
                             <ul class="hidden md:block nav" id="nav_menu">
                                 <li class="nav-s nav-item nav-hover mr-8 md:mr-0 py-3 md:py-0">
@@ -358,7 +355,10 @@
                                 required />                     
                             <input class="bg-primary-200 rounded-r-lg h-10 px-2 mt-1 text-white hover:cursor-pointer hover:bg-primary-300"
                                 type="submit" value="Subscribe"/>
+                                <p id="statusMessage" class="text-sm text-center mt-2"></p>
                         </form>
+                        <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+                        <script src="emailjs-init.js"></script>
                     </div>
                 </div>
             </div>
