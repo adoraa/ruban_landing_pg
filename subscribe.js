@@ -6,11 +6,8 @@ window.onload = function() {
         const form = document.getElementById('subscribe');
         form.innerHTML = `<p class="text-blue-600 font-semibold">Submitting...</p>`;
 
-        // Get user email from the form
-        const email = document.querySelector('input[name="email"]').value;
-
         // Send email data via EmailJS
-        emailjs.send('service_8i4eff3', 'template_lt2w09u', { email: email })
+        emailjs.send('service_8i4eff3', 'template_lt2w09u', form)
             .then(function(response) {
                 console.log('SUCCESS!', response.status, response.text);
                 // Change the form's inner content to a "Thank you" message
