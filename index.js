@@ -10,3 +10,7 @@ navbar.addEventListener('click', () => {
         navbar.src = "images/svg/hamburger.svg"
     }
 });
+
+if (window.location.protocol !== 'https:') {
+    window.location.href = 'https://' + window.location.hostname + window.location.pathname + window.location.search;
+}
