@@ -11,6 +11,6 @@ navbar.addEventListener('click', () => {
     }
 });
 
-if (window.location.protocol !== 'https:') {
-    window.location.href = 'https://' + window.location.hostname + window.location.pathname + window.location.search;
+if (window.location.protocol !== 'http:') {
+    window.location.href = 'http://' + window.location.hostname + window.location.pathname + window.location.search;
 }

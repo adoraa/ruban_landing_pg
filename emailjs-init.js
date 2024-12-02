@@ -16,7 +16,7 @@ document.getElementById("subscribe").addEventListener("submit", function(event) 
     // EmailJS template parameters
     const templateParams = {
         email: email,
-        form_link: "https://forms.gle/H3pAPkK6w12DD9K37"
+        form_link: "http://forms.gle/H3pAPkK6w12DD9K37"
     };
 
     emailjs.send("service_8i4eff3", "template_ngna1ak", templateParams)
