@@ -3309,6 +3309,7 @@ video {
 }
 
 .nav{
+  overflow: hidden;
   font-weight: 600;
 }
 
@@ -3726,11 +3727,11 @@ video {
     padding-top: 0.25rem;
   }
 
-  .md\:pt-96{
-    padding-top: 24rem;
+  .md\:pt-12{
+    padding-top: 3rem;
   }
 
-  .md\:pt-6{
-    padding-top: 1.5rem;
+  .md\:pt-96{
+    padding-top: 24rem;
   }
 }
