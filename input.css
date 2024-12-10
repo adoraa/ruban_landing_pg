@@ -151,7 +151,7 @@
 }
 
 .nav{
-    @apply font-semibold md:pt-1 md:text-xl overflow-hidden
+    @apply font-semibold md:pt-1 md:text-xl
 }
 
 .nav-hover{
