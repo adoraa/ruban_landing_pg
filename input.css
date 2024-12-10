@@ -155,7 +155,7 @@
 }
 
 .nav-item{
-    @apply md:float-left
+    @apply md:flex
 }
 
 .nav-hover{

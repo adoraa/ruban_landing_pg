@@ -3321,7 +3321,7 @@ video {
   }
 
   .nav-item{
-    float: left;
+    display: flex;
   }
 }
 
