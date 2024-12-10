@@ -52,7 +52,7 @@
 
 /*background image*/
 .bg-hero-img {
-    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.5), transparent), url('images/bg-image.webp');
+    background-image: linear-gradient(to top, rgba(255, 255, 255, 0.2), transparent), url('images/bg-image.webp');
     background-size: cover;
     background-position: center;
   }

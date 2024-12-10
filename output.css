@@ -2062,10 +2062,6 @@ video {
   background-color: rgb(0 102 51 / var(--tw-bg-opacity));
 }
 
-.bg-hero-img{
-  background-image: url("images/bg-image.webp");
-}
-
 .decoration-slice{
   -webkit-box-decoration-break: slice;
           box-decoration-break: slice;
@@ -2989,6 +2985,14 @@ video {
   }
 }
 
+/*background image*/
+
+.bg-hero-img {
+  background-image: linear-gradient(to top, rgba(255, 255, 255, 0.2), transparent), url('images/bg-image.webp');
+  background-size: cover;
+  background-position: center;
+}
+
 /*benefits*/
 
 .benefit-h{
@@ -3058,7 +3062,7 @@ video {
   }
 }
 
-/*bubtton*/
+/*button*/
 
 .btn{
   cursor: pointer;
@@ -3586,10 +3590,6 @@ video {
     top: 16rem;
   }
 
-  .md\:float-start{
-    float: inline-start;
-  }
-
   .md\:-mx-28{
     margin-left: -7rem;
     margin-right: -7rem;
@@ -3618,10 +3618,6 @@ video {
 
   .md\:ml-4{
     margin-left: 1rem;
-  }
-
-  .md\:mr-0{
-    margin-right: 0px;
   }
 
   .md\:mr-4{
@@ -3717,8 +3713,8 @@ video {
     padding-right: 0px;
   }
 
-  .md\:pr-2{
-    padding-right: 0.5rem;
+  .md\:pr-4{
+    padding-right: 1rem;
   }
 
   .md\:pt-0{
