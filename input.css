@@ -154,10 +154,6 @@
     @apply font-semibold md:pt-1 md:text-xl md:mr-2
 }
 
-.nav-item{
-    @apply md:flex
-}
-
 .nav-hover{
     @apply md:hover:underline hover:underline-offset-8
 }
