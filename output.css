@@ -2063,7 +2063,7 @@ video {
 }
 
 .bg-hero-img{
-  background-image: url("images/bg-image01.webp");
+  background-image: url("images/bg-image.webp");
 }
 
 .decoration-slice{
@@ -3309,7 +3309,6 @@ video {
 }
 
 .nav{
-  overflow: hidden;
   font-weight: 600;
 }
 
@@ -3663,6 +3662,10 @@ video {
 
   .md\:h-24{
     height: 6rem;
+  }
+
+  .md\:w-auto{
+    width: auto;
   }
 
   .md\:max-w-full{
