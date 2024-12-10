@@ -3319,10 +3319,6 @@ video {
     font-size: 1.25rem;
     line-height: 1.75rem;
   }
-
-  .nav-item{
-    display: flex;
-  }
 }
 
 .nav-hover:hover{
@@ -3689,6 +3685,12 @@ video {
     justify-content: space-between;
   }
 
+  .md\:space-x-8 > :not([hidden]) ~ :not([hidden]){
+    --tw-space-x-reverse: 0;
+    margin-right: calc(2rem * var(--tw-space-x-reverse));
+    margin-left: calc(2rem * calc(1 - var(--tw-space-x-reverse)));
+  }
+
   .md\:px-0{
     padding-left: 0px;
     padding-right: 0px;
@@ -3726,5 +3728,9 @@ video {
 
   .md\:pt-96{
     padding-top: 24rem;
+  }
+
+  .md\:pt-6{
+    padding-top: 1.5rem;
   }
 }
