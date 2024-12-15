@@ -22,7 +22,7 @@ document
         "https://docs.google.com/forms/d/e/1FAIpQLSck0xIjXRyO-0dWZXRgwKWQ_sk-3bTbBlv-WGkcOjbLLTMzRw/viewform?usp=sf_link",
     };
 
-    emailjs.send("service_8i4eff3", "template_ngna1ak", templateParams).then(
+    emailjs.send("service_1dars0b", "template_ngna1ak", templateParams).then(
       function (response) {
         console.log("SUCCESS!", response);
         statusMessage.innerText = `
