@@ -1,41 +1,21 @@
-// emailjs-init.js
 (function () {
-  emailjs.init("255k42oWLmBaaQqf8");
+  emailjs.init("255k42oWLmBaaQqf8"); // Initialize EmailJS with your user ID
 })();
 
-document
-  .getElementById("subscribe")
-  .addEventListener("submit", function (event) {
-    event.preventDefault();
+// Function to handle sending the email via EmailJS
+function sendEmailJS(email) {
+  const templateParams = {
+    email: email,
+    form_link: "https://docs.google.com/forms/d/e/1FAIpQLSck0xIjXRyO-0dWZXRgwKWQ_sk-3bTbBlv-WGkcOjbLLTMzRw/viewform?usp=sf_link"
+  };
 
-    // Show a loading message & disable the button
-    const statusMessage = document.getElementById("statusMessage");
-    statusMessage.innerText = "Submitting...";
-    statusMessage.className = "text-blue-600 font-semibold pt-4";
-
-    const email = document.getElementById("email").value;
-
-    // EmailJS template parameters
-    const templateParams = {
-      email: email,
-      form_link:
-        "https://docs.google.com/forms/d/e/1FAIpQLSck0xIjXRyO-0dWZXRgwKWQ_sk-3bTbBlv-WGkcOjbLLTMzRw/viewform?usp=sf_link",
-    };
-
-    emailjs.send("service_1dars0b", "template_ngna1ak", templateParams).then(
-      function (response) {
-        console.log("SUCCESS!", response);
-        statusMessage.innerText = `
-                Thank you for subscribing!
-                Please check your email for the next steps.
-                If you don’t see it, please check your spam or junk folder.
-            `;
-        statusMessage.className = "text-green-600 text-sm font-semibold pt-4";
-      },
-      function (error) {
-        console.error("EmailJS Error:", error);
-        statusMessage.innerText = "Failed to send the email. Please try again.";
-        statusMessage.className = "text-red-600 text-sm font-semibold";
-      }
-    );
-  });
+  return emailjs.send("service_1dars0b", "template_ngna1ak", templateParams)
+    .then(function(response) {
+      console.log("EmailJS SUCCESS!", response);
+      return { status: "success", message: "Email sent successfully." };
+    })
+    .catch(function(error) {
+      console.error("EmailJS Error:", error);
+      return { status: "error", message: "Failed to send the email. Please try again." };
+    });
+}
